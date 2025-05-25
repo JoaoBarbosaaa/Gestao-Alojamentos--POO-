@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="dir_715d8ef402ac68a55fb68bf2e430795f" kind="dir">
+    <compoundname>FrontEnd/obj/Debug</compoundname>
+    <innerfile refid="_front_end_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs">.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrontEnd/obj/Debug/"/>
+  </compounddef>
+</doxygen>

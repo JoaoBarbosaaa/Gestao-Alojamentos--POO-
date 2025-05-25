@@ -1,0 +1,189 @@
+\doxysection{Referência à classe BO.\+Alojamento}
+\hypertarget{class_b_o_1_1_alojamento}{}\label{class_b_o_1_1_alojamento}\index{BO.Alojamento@{BO.Alojamento}}
+
+
+Purpose\+: Created by\+: João Barbosa Created on\+: 17/12/2024 17\+:32\+:51.  
+
+
+Diagrama de heranças da classe BO.\+Alojamento\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_b_o_1_1_alojamento}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_b_o_1_1_alojamento_a48a6f33cd19ee05ef49b3cb917a85698}{Alojamento}} (string nome, decimal preco\+Por\+Noite, int total\+Quartos, int num\+Alojamento)
+\begin{DoxyCompactList}\small\item\em Construtor para inicializar um alojamento com o nome, preço por noite e capacidade de quartos. \end{DoxyCompactList}\item 
+short \mbox{\hyperlink{class_b_o_1_1_alojamento_ae385eb92bb4713fd713bf5b2a9ecb22b}{Reservar\+Quartos}} (Date\+Time data\+Entrada, Date\+Time data\+Saida, int quantidade\+Quartos)
+\begin{DoxyCompactList}\small\item\em Realiza a reserva de uma quantidade de quartos no alojamento para o intervalo de datas especificado. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_b_o_1_1_alojamento_acc3798085e6cc43cb8e28362007e2695}{Liberta\+Quartos}} (int quantidade)
+\begin{DoxyCompactList}\small\item\em Libera uma quantidade especificada de quartos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Membros públicos herdados de \mbox{\hyperlink{interface_b_o_1_1_i_alojamento}{BO.\+IAlojamento}}}
+\doxysubsubsection*{Membros públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_b_o_1_1_alojamento}{Alojamento}} \mbox{\hyperlink{class_b_o_1_1_alojamento_a361ff775ab30ebfc3e16fd8cb5c55b25}{Cria\+Alojamento}} (string nome, decimal preco\+Por\+Noite, int total\+Quartos, int num\+Alojamento)
+\begin{DoxyCompactList}\small\item\em Cria uma nova instância de um alojamento com as informações especificadas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Propriedades}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_b_o_1_1_alojamento_aae44f407588bb80e8c9bf41866c1e504}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o nome do alojamento. \end{DoxyCompactList}\item 
+decimal \mbox{\hyperlink{class_b_o_1_1_alojamento_a5fab98b42ccf36336142be8fe60e1737}{Preco\+Por\+Noite}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o preço por noite. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_b_o_1_1_alojamento_a1c33d1d5ec64760a0911406213f8dadc}{Total\+Quartos}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define a capacidade de quartos do alojamento. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_b_o_1_1_alojamento_a2e7c631cac69ba1165d67066b68fb799}{Num\+Alojamento}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Número de identificação do \doxylink{class_b_o_1_1_alojamento}{Alojamento}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Purpose\+: Created by\+: João Barbosa Created on\+: 17/12/2024 17\+:32\+:51. 
+
+
+
+\doxysubsection{Documentação dos Construtores \& Destrutor}
+\Hypertarget{class_b_o_1_1_alojamento_a48a6f33cd19ee05ef49b3cb917a85698}\index{BO.Alojamento@{BO.Alojamento}!Alojamento@{Alojamento}}
+\index{Alojamento@{Alojamento}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{Alojamento()}{Alojamento()}}
+{\footnotesize\ttfamily \label{class_b_o_1_1_alojamento_a48a6f33cd19ee05ef49b3cb917a85698} 
+BO.\+Alojamento.\+Alojamento (\begin{DoxyParamCaption}\item[{string}]{nome}{, }\item[{decimal}]{preco\+Por\+Noite}{, }\item[{int}]{total\+Quartos}{, }\item[{int}]{num\+Alojamento}{}\end{DoxyParamCaption})}
+
+
+
+Construtor para inicializar um alojamento com o nome, preço por noite e capacidade de quartos. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome} & O nome do alojamento.\\
+\hline
+{\em preco\+Por\+Noite} & O preço por noite do alojamento.\\
+\hline
+{\em capacidade\+Quartos} & O número máximo de quartos disponíveis no alojamento.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{class_b_o_1_1_alojamento_a361ff775ab30ebfc3e16fd8cb5c55b25}\index{BO.Alojamento@{BO.Alojamento}!CriaAlojamento@{CriaAlojamento}}
+\index{CriaAlojamento@{CriaAlojamento}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{CriaAlojamento()}{CriaAlojamento()}}
+{\footnotesize\ttfamily \label{class_b_o_1_1_alojamento_a361ff775ab30ebfc3e16fd8cb5c55b25} 
+static \mbox{\hyperlink{class_b_o_1_1_alojamento}{Alojamento}} BO.\+Alojamento.\+Cria\+Alojamento (\begin{DoxyParamCaption}\item[{string}]{nome}{, }\item[{decimal}]{preco\+Por\+Noite}{, }\item[{int}]{total\+Quartos}{, }\item[{int}]{num\+Alojamento}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Cria uma nova instância de um alojamento com as informações especificadas. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome} & Nome do alojamento.\\
+\hline
+{\em preco\+Por\+Noite} & Preço por noite do alojamento.\\
+\hline
+{\em total\+Quartos} & Quantidade total de quartos disponíveis no alojamento.\\
+\hline
+{\em num\+Alojamento} & Número de identificação do alojamento.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Uma nova instância da classe \doxylink{class_b_o_1_1_alojamento}{Alojamento}.
+\end{DoxyReturn}
+\Hypertarget{class_b_o_1_1_alojamento_acc3798085e6cc43cb8e28362007e2695}\index{BO.Alojamento@{BO.Alojamento}!LibertaQuartos@{LibertaQuartos}}
+\index{LibertaQuartos@{LibertaQuartos}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{LibertaQuartos()}{LibertaQuartos()}}
+{\footnotesize\ttfamily \label{class_b_o_1_1_alojamento_acc3798085e6cc43cb8e28362007e2695} 
+bool BO.\+Alojamento.\+Liberta\+Quartos (\begin{DoxyParamCaption}\item[{int}]{quantidade}{}\end{DoxyParamCaption})}
+
+
+
+Libera uma quantidade especificada de quartos. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em quantidade} & Quantidade de quartos a liberar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna {\ttfamily true} se a operação for bem-\/sucedida; caso contrário, {\ttfamily false}.
+\end{DoxyReturn}
+
+
+Implementa \mbox{\hyperlink{interface_b_o_1_1_i_alojamento_a3cb618f1d4bf3dc4736ac5d42649f724}{BO.\+IAlojamento}}.
+
+\Hypertarget{class_b_o_1_1_alojamento_ae385eb92bb4713fd713bf5b2a9ecb22b}\index{BO.Alojamento@{BO.Alojamento}!ReservarQuartos@{ReservarQuartos}}
+\index{ReservarQuartos@{ReservarQuartos}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{ReservarQuartos()}{ReservarQuartos()}}
+{\footnotesize\ttfamily \label{class_b_o_1_1_alojamento_ae385eb92bb4713fd713bf5b2a9ecb22b} 
+short BO.\+Alojamento.\+Reservar\+Quartos (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+Entrada}{, }\item[{Date\+Time}]{data\+Saida}{, }\item[{int}]{quantidade\+Quartos}{}\end{DoxyParamCaption})}
+
+
+
+Realiza a reserva de uma quantidade de quartos no alojamento para o intervalo de datas especificado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em data\+Entrada} & Data de início da reserva.\\
+\hline
+{\em data\+Saida} & Data de término da reserva.\\
+\hline
+{\em quantidade\+Quartos} & Número de quartos a serem reservados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna {\ttfamily true} se a reserva foi realizada com sucesso; caso contrário, {\ttfamily false}.
+\end{DoxyReturn}
+
+
+Implementa \mbox{\hyperlink{interface_b_o_1_1_i_alojamento_a1367e2a5f5e0a41882b485a484c657d1}{BO.\+IAlojamento}}.
+
+
+
+\doxysubsection{Documentação das propriedades}
+\Hypertarget{class_b_o_1_1_alojamento_aae44f407588bb80e8c9bf41866c1e504}\index{BO.Alojamento@{BO.Alojamento}!Nome@{Nome}}
+\index{Nome@{Nome}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{Nome}{Nome}}
+{\footnotesize\ttfamily \label{class_b_o_1_1_alojamento_aae44f407588bb80e8c9bf41866c1e504} 
+string BO.\+Alojamento.\+Nome\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o nome do alojamento. 
+
+\Hypertarget{class_b_o_1_1_alojamento_a2e7c631cac69ba1165d67066b68fb799}\index{BO.Alojamento@{BO.Alojamento}!NumAlojamento@{NumAlojamento}}
+\index{NumAlojamento@{NumAlojamento}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{NumAlojamento}{NumAlojamento}}
+{\footnotesize\ttfamily \label{class_b_o_1_1_alojamento_a2e7c631cac69ba1165d67066b68fb799} 
+int BO.\+Alojamento.\+Num\+Alojamento\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Número de identificação do \doxylink{class_b_o_1_1_alojamento}{Alojamento}. 
+
+\Hypertarget{class_b_o_1_1_alojamento_a5fab98b42ccf36336142be8fe60e1737}\index{BO.Alojamento@{BO.Alojamento}!PrecoPorNoite@{PrecoPorNoite}}
+\index{PrecoPorNoite@{PrecoPorNoite}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{PrecoPorNoite}{PrecoPorNoite}}
+{\footnotesize\ttfamily \label{class_b_o_1_1_alojamento_a5fab98b42ccf36336142be8fe60e1737} 
+decimal BO.\+Alojamento.\+Preco\+Por\+Noite\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o preço por noite. 
+
+\Hypertarget{class_b_o_1_1_alojamento_a1c33d1d5ec64760a0911406213f8dadc}\index{BO.Alojamento@{BO.Alojamento}!TotalQuartos@{TotalQuartos}}
+\index{TotalQuartos@{TotalQuartos}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{TotalQuartos}{TotalQuartos}}
+{\footnotesize\ttfamily \label{class_b_o_1_1_alojamento_a1c33d1d5ec64760a0911406213f8dadc} 
+int BO.\+Alojamento.\+Total\+Quartos\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define a capacidade de quartos do alojamento. 
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+BO/\mbox{\hyperlink{_alojamento_b_o_8cs}{Alojamento\+BO.\+cs}}\end{DoxyCompactItemize}

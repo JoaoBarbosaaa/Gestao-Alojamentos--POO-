@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="_check_in_8cs" kind="file" language="C#">
+    <compoundname>CheckIn.cs</compoundname>
+    <innerclass refid="classdados_1_1_check_in" prot="public">dados::CheckIn</innerclass>
+    <innernamespace refid="namespacedados">dados</innernamespace>
+    <innernamespace refid="namespace_system_1_1_collections_1_1_generic">System::Collections::Generic</innernamespace>
+    <innernamespace refid="namespace_system_1_1_linq">System::Linq</innernamespace>
+    <innernamespace refid="namespace_system_1_1_text">System::Text</innernamespace>
+    <innernamespace refid="namespace_system_1_1_threading_1_1_tasks">System::Threading::Tasks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/><sp/><sp/>&lt;copyright<sp/>file=&quot;Regras.cs&quot;<sp/>company=&quot;IPCA&quot;&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>2024<sp/>All<sp/>Rights<sp/>Reserved</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/><sp/><sp/>&lt;/copyright&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/><sp/><sp/>&lt;author&gt;João<sp/>Barbosa&lt;/author&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*<sp/><sp/><sp/>&lt;date&gt;17/12/2024<sp/>16:27:39&lt;/date&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/><sp/><sp/>&lt;description&gt;&lt;/description&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Linq;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_b_o" kindref="compound">BO</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespacedados" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacedados" kindref="compound">dados</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="20" refid="classdados_1_1_check_in" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdados_1_1_check_in" kindref="compound">CheckIn</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>codigoReserva;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DateTime?<sp/>dataHoraCheckIn;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_1a24d11f2f1288711729f3a2cbd49d8f8c" kindref="member">CodigoReserva</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>codigoReserva;<sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>{<sp/><sp/>codigoReserva<sp/>=<sp/>value;<sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DateTime?<sp/><ref refid="classdados_1_1_check_in_1abad8df22104ea99eef0728bca0bd89c1" kindref="member">DataHoraCheckIn</ref></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dataHoraCheckIn;<sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>{<sp/>dataHoraCheckIn<sp/>=<sp/>value;<sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_1a4470e67ec4141b3fcd9de1bdadc2c927" kindref="member">CheckIn</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>codigoReserva)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classdados_1_1_check_in_1a24d11f2f1288711729f3a2cbd49d8f8c" kindref="member">CodigoReserva</ref><sp/>=<sp/>codigoReserva;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classdados_1_1_check_in_1abad8df22104ea99eef0728bca0bd89c1" kindref="member">DataHoraCheckIn</ref><sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Inicializa<sp/>como<sp/>null,<sp/>indicando<sp/>que<sp/>o<sp/>check-in<sp/>não<sp/>foi<sp/>feito</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_1aac908dee3c24f31ea4dd967c49e8665f" kindref="member">AdicionarCheckIn</ref>(<ref refid="classdados_1_1_check_in" kindref="compound">CheckIn</ref><sp/>checkIn);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_1a2657e238aed4eebc800e556d5762ee9f" kindref="member">GuardarCheckIns</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>caminhoFicheiro);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_1a1c44eb1735f0dc1e0debdb3c93e35dfa" kindref="member">CarregarCheckIns</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>caminhoFicheiro);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_1a8c2dd805bbfea62faa9c7bd6b3ff452a" kindref="member">CheckInRealizado</ref>();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_1a7199a1060c8f25f55a2cd452cf900613" kindref="member">RegistarCheckIn</ref>(DateTime<sp/>dataHora)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classdados_1_1_check_in_1abad8df22104ea99eef0728bca0bd89c1" kindref="member">DataHoraCheckIn</ref><sp/>=<sp/>dataHora;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+    </programlisting>
+    <location file="dados/CheckIn.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,6 @@
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\trataProblemas\bin\Debug\trataProblemas.dll
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\trataProblemas\bin\Debug\trataProblemas.pdb
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\trataProblemas\obj\Debug\trataProblemas.csproj.AssemblyReference.cache
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\trataProblemas\obj\Debug\trataProblemas.csproj.CoreCompileInputs.cache
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\trataProblemas\obj\Debug\trataProblemas.dll
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\trataProblemas\obj\Debug\trataProblemas.pdb

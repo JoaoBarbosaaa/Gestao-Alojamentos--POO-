@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="interface_b_o_1_1_i_alojamento" kind="interface" language="C#" prot="public">
+    <compoundname>BO::IAlojamento</compoundname>
+    <derivedcompoundref refid="class_b_o_1_1_alojamento" prot="public" virt="non-virtual">BO.Alojamento</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_b_o_1_1_i_alojamento_1a1367e2a5f5e0a41882b485a484c657d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>short</type>
+        <definition>short BO.IAlojamento.ReservarQuartos</definition>
+        <argsstring>(DateTime dataEntrada, DateTime dataSaida, int quantidadeQuartos)</argsstring>
+        <name>ReservarQuartos</name>
+        <qualifiedname>BO.IAlojamento.ReservarQuartos</qualifiedname>
+        <reimplementedby refid="class_b_o_1_1_alojamento_1ae385eb92bb4713fd713bf5b2a9ecb22b">ReservarQuartos</reimplementedby>
+        <param>
+          <type>DateTime</type>
+          <declname>dataEntrada</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataSaida</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>quantidadeQuartos</declname>
+        </param>
+        <briefdescription>
+<para>Realiza a reserva de uma quantidade de quartos no alojamento para o intervalo de datas especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataEntrada</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de início da reserva.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataSaida</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de término da reserva.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>quantidadeQuartos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número de quartos a serem reservados.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna <computeroutput>true</computeroutput> se a reserva foi realizada com sucesso; caso contrário, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BO/IAlojamento.cs" line="34" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_b_o_1_1_i_alojamento_1a3cb618f1d4bf3dc4736ac5d42649f724" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BO.IAlojamento.LibertaQuartos</definition>
+        <argsstring>(int quantidade)</argsstring>
+        <name>LibertaQuartos</name>
+        <qualifiedname>BO.IAlojamento.LibertaQuartos</qualifiedname>
+        <reimplementedby refid="class_b_o_1_1_alojamento_1acc3798085e6cc43cb8e28362007e2695">LibertaQuartos</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>quantidade</declname>
+        </param>
+        <briefdescription>
+<para>Liberta uma quantidade especificada de quartos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>quantidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Quantidade de quartos a libetar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna <computeroutput>true</computeroutput> se a operação for bem-sucedida; caso contrário, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BO/IAlojamento.cs" line="41" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: João Barbosa Created on: 17/12/2024 14:32:45. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BO.IAlojamento</label>
+        <link refid="interface_b_o_1_1_i_alojamento"/>
+      </node>
+      <node id="2">
+        <label>BO.Alojamento</label>
+        <link refid="class_b_o_1_1_alojamento"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="BO/IAlojamento.cs" line="21" column="22" bodyfile="BO/IAlojamento.cs" bodystart="22" bodyend="45"/>
+    <listofallmembers>
+      <member refid="interface_b_o_1_1_i_alojamento_1a3cb618f1d4bf3dc4736ac5d42649f724" prot="public" virt="non-virtual"><scope>BO::IAlojamento</scope><name>LibertaQuartos</name></member>
+      <member refid="interface_b_o_1_1_i_alojamento_1a1367e2a5f5e0a41882b485a484c657d1" prot="public" virt="non-virtual"><scope>BO::IAlojamento</scope><name>ReservarQuartos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

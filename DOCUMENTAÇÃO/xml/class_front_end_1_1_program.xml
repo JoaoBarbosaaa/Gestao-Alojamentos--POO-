@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="class_front_end_1_1_program" kind="class" language="C#" prot="public">
+    <compoundname>FrontEnd::Program</compoundname>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_front_end_1_1_program_1a1c83bdf3335f9ad2001132770944235b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FrontEnd.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <qualifiedname>FrontEnd.Program.Main</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrontEnd/Program.cs" line="26" column="21" bodyfile="FrontEnd/Program.cs" bodystart="26" bodyend="179"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrontEnd/Program.cs" line="24" column="5" bodyfile="FrontEnd/Program.cs" bodystart="25" bodyend="180"/>
+    <listofallmembers>
+      <member refid="class_front_end_1_1_program_1a1c83bdf3335f9ad2001132770944235b" prot="private" virt="non-virtual"><scope>FrontEnd::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

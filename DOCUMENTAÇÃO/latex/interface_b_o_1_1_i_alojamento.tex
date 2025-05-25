@@ -1,0 +1,81 @@
+\doxysection{Referência ao interface BO.\+IAlojamento}
+\hypertarget{interface_b_o_1_1_i_alojamento}{}\label{interface_b_o_1_1_i_alojamento}\index{BO.IAlojamento@{BO.IAlojamento}}
+
+
+Purpose\+: Created by\+: João Barbosa Created on\+: 17/12/2024 14\+:32\+:45.  
+
+
+Diagrama de heranças da classe BO.\+IAlojamento\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_b_o_1_1_i_alojamento}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+short \mbox{\hyperlink{interface_b_o_1_1_i_alojamento_a1367e2a5f5e0a41882b485a484c657d1}{Reservar\+Quartos}} (Date\+Time data\+Entrada, Date\+Time data\+Saida, int quantidade\+Quartos)
+\begin{DoxyCompactList}\small\item\em Realiza a reserva de uma quantidade de quartos no alojamento para o intervalo de datas especificado. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_b_o_1_1_i_alojamento_a3cb618f1d4bf3dc4736ac5d42649f724}{Liberta\+Quartos}} (int quantidade)
+\begin{DoxyCompactList}\small\item\em Liberta uma quantidade especificada de quartos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Purpose\+: Created by\+: João Barbosa Created on\+: 17/12/2024 14\+:32\+:45. 
+
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{interface_b_o_1_1_i_alojamento_a3cb618f1d4bf3dc4736ac5d42649f724}\index{BO.IAlojamento@{BO.IAlojamento}!LibertaQuartos@{LibertaQuartos}}
+\index{LibertaQuartos@{LibertaQuartos}!BO.IAlojamento@{BO.IAlojamento}}
+\doxysubsubsection{\texorpdfstring{LibertaQuartos()}{LibertaQuartos()}}
+{\footnotesize\ttfamily \label{interface_b_o_1_1_i_alojamento_a3cb618f1d4bf3dc4736ac5d42649f724} 
+bool BO.\+IAlojamento.\+Liberta\+Quartos (\begin{DoxyParamCaption}\item[{int}]{quantidade}{}\end{DoxyParamCaption})}
+
+
+
+Liberta uma quantidade especificada de quartos. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em quantidade} & Quantidade de quartos a libetar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna {\ttfamily true} se a operação for bem-\/sucedida; caso contrário, {\ttfamily false}.
+\end{DoxyReturn}
+
+
+Implementado em \mbox{\hyperlink{class_b_o_1_1_alojamento_acc3798085e6cc43cb8e28362007e2695}{BO.\+Alojamento}}.
+
+\Hypertarget{interface_b_o_1_1_i_alojamento_a1367e2a5f5e0a41882b485a484c657d1}\index{BO.IAlojamento@{BO.IAlojamento}!ReservarQuartos@{ReservarQuartos}}
+\index{ReservarQuartos@{ReservarQuartos}!BO.IAlojamento@{BO.IAlojamento}}
+\doxysubsubsection{\texorpdfstring{ReservarQuartos()}{ReservarQuartos()}}
+{\footnotesize\ttfamily \label{interface_b_o_1_1_i_alojamento_a1367e2a5f5e0a41882b485a484c657d1} 
+short BO.\+IAlojamento.\+Reservar\+Quartos (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+Entrada}{, }\item[{Date\+Time}]{data\+Saida}{, }\item[{int}]{quantidade\+Quartos}{}\end{DoxyParamCaption})}
+
+
+
+Realiza a reserva de uma quantidade de quartos no alojamento para o intervalo de datas especificado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em data\+Entrada} & Data de início da reserva.\\
+\hline
+{\em data\+Saida} & Data de término da reserva.\\
+\hline
+{\em quantidade\+Quartos} & Número de quartos a serem reservados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna {\ttfamily true} se a reserva foi realizada com sucesso; caso contrário, {\ttfamily false}.
+\end{DoxyReturn}
+
+
+Implementado em \mbox{\hyperlink{class_b_o_1_1_alojamento_ae385eb92bb4713fd713bf5b2a9ecb22b}{BO.\+Alojamento}}.
+
+
+
+A documentação para este interface foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+BO/\mbox{\hyperlink{_i_alojamento_8cs}{IAlojamento.\+cs}}\end{DoxyCompactItemize}

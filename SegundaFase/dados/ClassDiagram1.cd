@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="dados.CheckIn" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEAABAAAAACAABAACAAQAAAAIAAAAAAIAAAAAA=</HashCode>
+      <FileName>CheckIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dados.CheckInConcreto" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAABAAAAACAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>CheckInConcreto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dados.GestaoCheckIn" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAABAAAAACAAAAAAAAEAAIAIAAAAAAAAAABAA=</HashCode>
+      <FileName>CheckInReserva.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BO.ReservaBO">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BO.Alojamento">
+    <Position X="10.75" Y="2" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BO.CheckInBO">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BO.Cliente">
+    <Position X="14.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="dados.Reserva">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAVAACAGQAAAAAAAAABAACACQAAAAAAAAAQAQAABAEI=</HashCode>
+      <FileName>Reserva.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dados.Reservas">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAIAABAkAAAAAAAgACCBAAAAAAAAAAJAA=</HashCode>
+      <FileName>Reservas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Regras.RegrasCheckIn">
+    <Position X="8.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Regras.ReservasRegras">
+    <Position X="14.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="trataProblemas.BaseReservaException">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="trataProblemas.AcessoNegadoException">
+    <Position X="3.5" Y="6" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="trataProblemas.ErroDeIOException">
+    <Position X="8" Y="6" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="trataProblemas.SerializacaoException">
+    <Position X="1.25" Y="6" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="trataProblemas.FicheiroNaoEncontradoException">
+    <Position X="5.75" Y="6" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="BO.IAlojamento">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

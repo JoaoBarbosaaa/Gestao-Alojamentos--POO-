@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="_check_in_concreto_8cs" kind="file" language="C#">
+    <compoundname>CheckInConcreto.cs</compoundname>
+    <innerclass refid="classdados_1_1_check_in_concreto" prot="public">dados::CheckInConcreto</innerclass>
+    <innernamespace refid="namespacedados">dados</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/><sp/><sp/>&lt;copyright<sp/>file=&quot;dados.cs&quot;<sp/>company=&quot;IPCA&quot;&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>2024<sp/>All<sp/>Rights<sp/>Reserved</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/><sp/><sp/>&lt;/copyright&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/><sp/><sp/>&lt;author&gt;João<sp/>Barbosa&lt;/author&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*<sp/><sp/><sp/>&lt;date&gt;18/12/2024<sp/>16:11:51&lt;/date&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/><sp/><sp/>&lt;description&gt;&lt;/description&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_b_o" kindref="compound">BO</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacedados" kindref="compound">dados</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="23" refid="classdados_1_1_check_in_concreto" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdados_1_1_check_in_concreto" kindref="compound">CheckInConcreto</ref><sp/>:<sp/><ref refid="classdados_1_1_check_in" kindref="compound">CheckIn</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_concreto_1a034ed7dd09b137951ff8f52b3cb94f7e" kindref="member">CheckInConcreto</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>codigoReserva)<sp/>:<sp/>base(codigoReserva)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_concreto_1a034ed7dd09b137951ff8f52b3cb94f7e" kindref="member">CheckInConcreto</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>codigoReserva,<sp/>DateTime<sp/>dataHoraCheckIn)<sp/>:<sp/>base(codigoReserva)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classdados_1_1_check_in_1a7199a1060c8f25f55a2cd452cf900613" kindref="member">RegistarCheckIn</ref>(dataHoraCheckIn);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_concreto_1a5683ab0aa979197cfa0c42a4f4d99da3" kindref="member">AdicionarCheckIn</ref>(<ref refid="classdados_1_1_check_in" kindref="compound">CheckIn</ref><sp/>checkIn)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_concreto_1afad1cbbd5477c4fab9d662b16b4681f0" kindref="member">GuardarCheckIns</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>caminhoFicheiro)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_concreto_1ae416699d85c60041d7737e9003186177" kindref="member">CarregarCheckIns</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>caminhoFicheiro)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_concreto_1a2e620bf526a507378c79eb18d2ecca78" kindref="member">CheckInRealizado</ref>()</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classdados_1_1_check_in_1abad8df22104ea99eef0728bca0bd89c1" kindref="member">DataHoraCheckIn</ref>.HasValue;<sp/></highlight><highlight class="comment">//<sp/>Verifica<sp/>se<sp/>a<sp/>data<sp/>do<sp/>check-in<sp/>foi<sp/>definida</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="dados/CheckInConcreto.cs"/>
+  </compounddef>
+</doxygen>

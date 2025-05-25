@@ -1,0 +1,95 @@
+.TH "BO.ReservaBO" 3 "Gestão de Alojamentos" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+BO.ReservaBO
+.SH SYNOPSIS
+.br
+.PP
+.SS "Membros públicos"
+
+.in +1c
+.ti -1c
+.RI "\fBReservaBO\fP (int numIdentificacao, int numAlojamento, DateTime dataEntrada, DateTime dataSaida, int quantidadeQuartos)"
+.br
+.RI "Inicializa uma nova instância da classe Reserva\&. "
+.in -1c
+.SS "Propriedades"
+
+.in +1c
+.ti -1c
+.RI "int \fBNumIdentificacao\fP\fR [get, set]\fP"
+.br
+.RI "Obtém ou define o número de identificação do cliente\&. "
+.ti -1c
+.RI "int \fBNumAlojamento\fP\fR [get, set]\fP"
+.br
+.RI "Obtém ou define o número de identificação do \fBAlojamento\fP\&. "
+.ti -1c
+.RI "DateTime \fBDataEntrada\fP\fR [get, set]\fP"
+.br
+.RI "Obtém ou define a data de entrada na reserva\&. "
+.ti -1c
+.RI "DateTime \fBDataSaida\fP\fR [get, set]\fP"
+.br
+.RI "Obtém ou define a data de saída na reserva\&. "
+.ti -1c
+.RI "int \fBQuantidadeQuartos\fP\fR [get, set]\fP"
+.br
+.RI "Obtém ou define a quantidade de quartos reservados\&. "
+.ti -1c
+.RI "int \fBCodigoReserva\fP\fR [get, set]\fP"
+.br
+.RI "Obtém ou define o código da reserva\&. "
+.in -1c
+.SH "Documentação dos Construtores & Destrutor"
+.PP 
+.SS "BO\&.ReservaBO\&.ReservaBO (int numIdentificacao, int numAlojamento, DateTime dataEntrada, DateTime dataSaida, int quantidadeQuartos)"
+
+.PP
+Inicializa uma nova instância da classe Reserva\&. 
+.PP
+\fBParâmetros\fP
+.RS 4
+\fIcliente\fP \fBCliente\fP que fez a reserva\&.
+.br
+\fIalojamento\fP \fBAlojamento\fP onde será feita a reserva\&.
+.br
+\fIdataEntrada\fP Data de entrada na reserva\&.
+.br
+\fIdataSaida\fP Data de saída na reserva\&.
+.br
+\fIquantidadeQuartos\fP Quantidade de quartos a serem reservados\&.
+.RE
+.PP
+
+.SH "Documentação das propriedades"
+.PP 
+.SS "int BO\&.ReservaBO\&.CodigoReserva\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Obtém ou define o código da reserva\&. 
+.SS "DateTime BO\&.ReservaBO\&.DataEntrada\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Obtém ou define a data de entrada na reserva\&. 
+.SS "DateTime BO\&.ReservaBO\&.DataSaida\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Obtém ou define a data de saída na reserva\&. 
+.SS "int BO\&.ReservaBO\&.NumAlojamento\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Obtém ou define o número de identificação do \fBAlojamento\fP\&. 
+.SS "int BO\&.ReservaBO\&.NumIdentificacao\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Obtém ou define o número de identificação do cliente\&. 
+.SS "int BO\&.ReservaBO\&.QuantidadeQuartos\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Obtém ou define a quantidade de quartos reservados\&. 
+
+.SH "Autor"
+.PP 
+Gerado automaticamente por Doxygen para Gestão de Alojamentos a partir do código fonte\&.

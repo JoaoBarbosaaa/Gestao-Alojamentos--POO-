@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="classtrata_problemas_1_1_base_reserva_exception" kind="class" language="C#" prot="public">
+    <compoundname>trataProblemas::BaseReservaException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <derivedcompoundref refid="classtrata_problemas_1_1_acesso_negado_exception" prot="public" virt="non-virtual">trataProblemas.AcessoNegadoException</derivedcompoundref>
+    <derivedcompoundref refid="classtrata_problemas_1_1_erro_de_i_o_exception" prot="public" virt="non-virtual">trataProblemas.ErroDeIOException</derivedcompoundref>
+    <derivedcompoundref refid="classtrata_problemas_1_1_ficheiro_nao_encontrado_exception" prot="public" virt="non-virtual">trataProblemas.FicheiroNaoEncontradoException</derivedcompoundref>
+    <derivedcompoundref refid="classtrata_problemas_1_1_serializacao_exception" prot="public" virt="non-virtual">trataProblemas.SerializacaoException</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtrata_problemas_1_1_base_reserva_exception_1acc3286b3c07309a05c53872a3c64116e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>trataProblemas.BaseReservaException.BaseReservaException</definition>
+        <argsstring>(string codigoErro)</argsstring>
+        <name>BaseReservaException</name>
+        <qualifiedname>trataProblemas.BaseReservaException.BaseReservaException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>codigoErro</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa uma nova instância da classe <ref refid="classtrata_problemas_1_1_base_reserva_exception" kindref="compound">BaseReservaException</ref> com o código de erro especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>codigoErro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código de erro associado à exceção.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="trataProblemas/trata.cs" line="29" column="16" bodyfile="trataProblemas/trata.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe base para as exceções do sistema de reservas. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>trataProblemas.BaseReservaException</label>
+        <link refid="classtrata_problemas_1_1_base_reserva_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>trataProblemas.AcessoNegadoException</label>
+        <link refid="classtrata_problemas_1_1_acesso_negado_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>trataProblemas.ErroDeIOException</label>
+        <link refid="classtrata_problemas_1_1_erro_de_i_o_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>trataProblemas.FicheiroNaoEncontradoException</label>
+        <link refid="classtrata_problemas_1_1_ficheiro_nao_encontrado_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>trataProblemas.SerializacaoException</label>
+        <link refid="classtrata_problemas_1_1_serializacao_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>trataProblemas.BaseReservaException</label>
+        <link refid="classtrata_problemas_1_1_base_reserva_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="trataProblemas/trata.cs" line="23" column="11" bodyfile="trataProblemas/trata.cs" bodystart="24" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classtrata_problemas_1_1_base_reserva_exception_1acc3286b3c07309a05c53872a3c64116e" prot="public" virt="non-virtual"><scope>trataProblemas::BaseReservaException</scope><name>BaseReservaException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

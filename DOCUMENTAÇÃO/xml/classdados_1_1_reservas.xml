@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="classdados_1_1_reservas" kind="class" language="C#" prot="public">
+    <compoundname>dados::Reservas</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classdados_1_1_reservas_1a66cdd2ab54ecd9de5008a85ae01066cb" prot="public" static="yes" mutable="no">
+        <type>List&lt; <ref refid="classdados_1_1_reserva" kindref="compound">Reserva</ref> &gt;</type>
+        <definition>List&lt;Reserva&gt; dados.Reservas.reservas</definition>
+        <argsstring></argsstring>
+        <name>reservas</name>
+        <qualifiedname>dados.Reservas.reservas</qualifiedname>
+        <initializer>= new List&lt;<ref refid="classdados_1_1_reserva" kindref="compound">Reserva</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="27" column="28" bodyfile="dados/Reservas.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdados_1_1_reservas_1a88d1a15450ab7682fa548d163813cea2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dados.Reservas.codigoReservaAtual</definition>
+        <argsstring></argsstring>
+        <name>codigoReservaAtual</name>
+        <qualifiedname>dados.Reservas.codigoReservaAtual</qualifiedname>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="28" column="13" bodyfile="dados/Reservas.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classdados_1_1_reservas_1a8ff560ec462b1f1ca94f21118dfe1489" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int dados.Reservas.CodigoReservaAtual</definition>
+        <argsstring></argsstring>
+        <name>CodigoReservaAtual</name>
+        <qualifiedname>dados.Reservas.CodigoReservaAtual</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o código da reserva atual. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>O código da reserva atual.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="35" column="20" bodyfile="dados/Reservas.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classdados_1_1_reservas_1a7a3b32f8ff6b4eb730bbc2a0bb83f6a8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static dados.Reservas.Reservas</definition>
+        <argsstring>()</argsstring>
+        <name>Reservas</name>
+        <qualifiedname>dados.Reservas.Reservas</qualifiedname>
+        <briefdescription>
+<para>Construtor estático da classe <ref refid="classdados_1_1_reservas" kindref="compound">Reservas</ref>. Inicializa a lista de reservas quando a classe é carregada. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="46" column="16" bodyfile="dados/Reservas.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdados_1_1_reservas_1a5f3ab1fc2a34c70cf20176e889058789" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdados_1_1_reserva" kindref="compound">Reserva</ref></type>
+        <definition>Reserva dados.Reservas.ConverterParaReserva</definition>
+        <argsstring>(ReservaBO reservaBO)</argsstring>
+        <name>ConverterParaReserva</name>
+        <qualifiedname>dados.Reservas.ConverterParaReserva</qualifiedname>
+        <param>
+          <type><ref refid="class_b_o_1_1_reserva_b_o" kindref="compound">ReservaBO</ref></type>
+          <declname>reservaBO</declname>
+        </param>
+        <briefdescription>
+<para>Converte uma ReservaBO para uma instância de <ref refid="classdados_1_1_reserva" kindref="compound">dados.Reserva</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reservaBO</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ReservaBO a ser convertida.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Uma nova instância de <ref refid="classdados_1_1_reserva" kindref="compound">dados.Reserva</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="57" column="25" bodyfile="dados/Reservas.cs" bodystart="57" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdados_1_1_reservas_1a70341b1b9d41a9eafaf1bb21c3ccaf35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dados.Reservas.AdicionarReservaBO</definition>
+        <argsstring>(ReservaBO reservaBO)</argsstring>
+        <name>AdicionarReservaBO</name>
+        <qualifiedname>dados.Reservas.AdicionarReservaBO</qualifiedname>
+        <param>
+          <type><ref refid="class_b_o_1_1_reserva_b_o" kindref="compound">ReservaBO</ref></type>
+          <declname>reservaBO</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona uma nova reserva <ref refid="namespace_b_o" kindref="compound">BO</ref> à lista, convertendo-a para <ref refid="classdados_1_1_reserva" kindref="compound">dados.Reserva</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reservaBO</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ReservaBO a ser adicionada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Código da reserva gerado ou -1 se a reserva for inválida.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="76" column="20" bodyfile="dados/Reservas.cs" bodystart="76" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_reservas_1a9084a1280a04a743b0f621e3af7fb219" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dados.Reservas.AdicionarReserva</definition>
+        <argsstring>(Reserva reserva)</argsstring>
+        <name>AdicionarReserva</name>
+        <qualifiedname>dados.Reservas.AdicionarReserva</qualifiedname>
+        <param>
+          <type><ref refid="classdados_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>reserva</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona uma nova reserva à lista. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reserva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classdados_1_1_reserva" kindref="compound">Reserva</ref> a ser adicionada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Código da reserva ou -1 se inválida</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="92" column="20" bodyfile="dados/Reservas.cs" bodystart="92" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_reservas_1ad6610946bde056499bc899efa3185903" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool dados.Reservas.RemoverReserva</definition>
+        <argsstring>(int codigoReserva)</argsstring>
+        <name>RemoverReserva</name>
+        <qualifiedname>dados.Reservas.RemoverReserva</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>codigoReserva</declname>
+        </param>
+        <briefdescription>
+<para>Remove uma reserva pelo código. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>codigoReserva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código da reserva</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True se removida com sucesso, False caso contrário</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="110" column="21" bodyfile="dados/Reservas.cs" bodystart="110" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_reservas_1a37dc982fa8423e132523abff0cfe1de7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>decimal</type>
+        <definition>decimal dados.Reservas.CalcularPrecoReserva</definition>
+        <argsstring>(int codigoReserva, decimal precoPorNoite)</argsstring>
+        <name>CalcularPrecoReserva</name>
+        <qualifiedname>dados.Reservas.CalcularPrecoReserva</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>codigoReserva</declname>
+        </param>
+        <param>
+          <type>decimal</type>
+          <declname>precoPorNoite</declname>
+        </param>
+        <briefdescription>
+<para>Calcula o preço total da reserva. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>codigoReserva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código da reserva</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>precoPorNoite</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Preço por noite</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Preço total ou -1 se reserva não for encontrada</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="130" column="24" bodyfile="dados/Reservas.cs" bodystart="130" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_reservas_1af81f8c6b667b2d1f7eba47feeb45d8e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool dados.Reservas.ReservaExiste</definition>
+        <argsstring>(int codigoReserva)</argsstring>
+        <name>ReservaExiste</name>
+        <qualifiedname>dados.Reservas.ReservaExiste</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>codigoReserva</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se uma reserva existe na lista de reservas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>codigoReserva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código da reserva a ser verificada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna <computeroutput>true</computeroutput> se a reserva existir, caso contrário, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="155" column="21" bodyfile="dados/Reservas.cs" bodystart="155" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_reservas_1af003f958618c65e421f55c62a6c20057" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool dados.Reservas.GuardarReservas</definition>
+        <argsstring>(string caminhoFicheiro)</argsstring>
+        <name>GuardarReservas</name>
+        <qualifiedname>dados.Reservas.GuardarReservas</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Guarda a lista de reservas em um ficheiro binário especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O caminho completo do ficheiro onde as reservas serão guardadas.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna <computeroutput>true</computeroutput> se o processo de guardar for bem-sucedido.</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>AcessoNegadoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando não há permissão para acessar o ficheiro.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ErroDeIOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando ocorre um erro de entrada/saída ao acessar o ficheiro.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SerializacaoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando ocorre um erro ao serializar os dados.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BaseReservaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada para erros genéricos não específicos (-4).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="177" column="21" bodyfile="dados/Reservas.cs" bodystart="177" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_reservas_1abdbe3506ac229192aa3c812144dc52dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool dados.Reservas.CarregarReservas</definition>
+        <argsstring>(string caminhoFicheiro)</argsstring>
+        <name>CarregarReservas</name>
+        <qualifiedname>dados.Reservas.CarregarReservas</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega a lista de reservas a partir de um ficheiro binário especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O caminho completo do ficheiro de onde as reservas serão carregadas.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna <computeroutput>true</computeroutput> se o processo de carregamento for bem-sucedido.</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>FicheiroNaoEncontradoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando o ficheiro especificado não é encontrado.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>AcessoNegadoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando não há permissão para acessar o ficheiro.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ErroDeIOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando ocorre um erro de entrada/saída ao acessar o ficheiro.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SerializacaoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando ocorre um erro ao desserializar os dados.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BaseReservaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada para erros genéricos não específicos (-4).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reservas.cs" line="217" column="21" bodyfile="dados/Reservas.cs" bodystart="217" bodyend="250"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dados/Reservas.cs" line="25" column="11" bodyfile="dados/Reservas.cs" bodystart="26" bodyend="254"/>
+    <listofallmembers>
+      <member refid="classdados_1_1_reservas_1a9084a1280a04a743b0f621e3af7fb219" prot="public" virt="non-virtual"><scope>dados::Reservas</scope><name>AdicionarReserva</name></member>
+      <member refid="classdados_1_1_reservas_1a70341b1b9d41a9eafaf1bb21c3ccaf35" prot="public" virt="non-virtual"><scope>dados::Reservas</scope><name>AdicionarReservaBO</name></member>
+      <member refid="classdados_1_1_reservas_1a37dc982fa8423e132523abff0cfe1de7" prot="public" virt="non-virtual"><scope>dados::Reservas</scope><name>CalcularPrecoReserva</name></member>
+      <member refid="classdados_1_1_reservas_1abdbe3506ac229192aa3c812144dc52dc" prot="public" virt="non-virtual"><scope>dados::Reservas</scope><name>CarregarReservas</name></member>
+      <member refid="classdados_1_1_reservas_1a8ff560ec462b1f1ca94f21118dfe1489" prot="public" virt="non-virtual"><scope>dados::Reservas</scope><name>CodigoReservaAtual</name></member>
+      <member refid="classdados_1_1_reservas_1a88d1a15450ab7682fa548d163813cea2" prot="private" virt="non-virtual"><scope>dados::Reservas</scope><name>codigoReservaAtual</name></member>
+      <member refid="classdados_1_1_reservas_1a5f3ab1fc2a34c70cf20176e889058789" prot="private" virt="non-virtual"><scope>dados::Reservas</scope><name>ConverterParaReserva</name></member>
+      <member refid="classdados_1_1_reservas_1af003f958618c65e421f55c62a6c20057" prot="public" virt="non-virtual"><scope>dados::Reservas</scope><name>GuardarReservas</name></member>
+      <member refid="classdados_1_1_reservas_1ad6610946bde056499bc899efa3185903" prot="public" virt="non-virtual"><scope>dados::Reservas</scope><name>RemoverReserva</name></member>
+      <member refid="classdados_1_1_reservas_1af81f8c6b667b2d1f7eba47feeb45d8e9" prot="public" virt="non-virtual"><scope>dados::Reservas</scope><name>ReservaExiste</name></member>
+      <member refid="classdados_1_1_reservas_1a7a3b32f8ff6b4eb730bbc2a0bb83f6a8" prot="private" virt="non-virtual"><scope>dados::Reservas</scope><name>Reservas</name></member>
+      <member refid="classdados_1_1_reservas_1a66cdd2ab54ecd9de5008a85ae01066cb" prot="public" virt="non-virtual"><scope>dados::Reservas</scope><name>reservas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

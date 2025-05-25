@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="classdados_1_1_check_in_concreto" kind="class" language="C#" prot="public">
+    <compoundname>dados::CheckInConcreto</compoundname>
+    <basecompoundref refid="classdados_1_1_check_in" prot="public" virt="non-virtual">dados.CheckIn</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdados_1_1_check_in_concreto_1a034ed7dd09b137951ff8f52b3cb94f7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>dados.CheckInConcreto.CheckInConcreto</definition>
+        <argsstring>(int codigoReserva)</argsstring>
+        <name>CheckInConcreto</name>
+        <qualifiedname>dados.CheckInConcreto.CheckInConcreto</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>codigoReserva</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="classdados_1_1_check_in_concreto" kindref="compound">CheckInConcreto</ref> que inicializa um novo objeto com o código da reserva. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>codigoReserva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código da reserva que será associado ao check-in concreto.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/CheckInConcreto.cs" line="30" column="16" bodyfile="dados/CheckInConcreto.cs" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_check_in_concreto_1adfa368090d6e6c4c0b065aaf1aa431b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>dados.CheckInConcreto.CheckInConcreto</definition>
+        <argsstring>(int codigoReserva, DateTime dataHoraCheckIn)</argsstring>
+        <name>CheckInConcreto</name>
+        <qualifiedname>dados.CheckInConcreto.CheckInConcreto</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>codigoReserva</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataHoraCheckIn</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da classe <ref refid="classdados_1_1_check_in_concreto" kindref="compound">CheckInConcreto</ref> que inicializa um novo objeto com o código da reserva e a data/hora do check-in. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>codigoReserva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código da reserva que será associado ao check-in concreto.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataHoraCheckIn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data e hora do check-in que será registrado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/CheckInConcreto.cs" line="39" column="16" bodyfile="dados/CheckInConcreto.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_check_in_concreto_1a5683ab0aa979197cfa0c42a4f4d99da3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool dados.CheckInConcreto.AdicionarCheckIn</definition>
+        <argsstring>(CheckIn checkIn)</argsstring>
+        <name>AdicionarCheckIn</name>
+        <qualifiedname>dados.CheckInConcreto.AdicionarCheckIn</qualifiedname>
+        <param>
+          <type><ref refid="classdados_1_1_check_in" kindref="compound">CheckIn</ref></type>
+          <declname>checkIn</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona um check-in à lista de check-ins. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>checkIn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto do tipo <ref refid="classdados_1_1_check_in" kindref="compound">CheckIn</ref> que representa o check-in a ser adicionado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna true, indicando que o check-in foi adicionado com sucesso. A lógica de adição pode ser ajustada conforme necessário.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/CheckInConcreto.cs" line="49" column="30" bodyfile="dados/CheckInConcreto.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_check_in_concreto_1afad1cbbd5477c4fab9d662b16b4681f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool dados.CheckInConcreto.GuardarCheckIns</definition>
+        <argsstring>(string caminhoFicheiro)</argsstring>
+        <name>GuardarCheckIns</name>
+        <qualifiedname>dados.CheckInConcreto.GuardarCheckIns</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>guarda os check-ins em um ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caminho do ficheiro onde os check-ins serão guadados.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna true, indicando que os check-ins foram guardados com sucesso. A lógica de guardar pode ser ajustada conforme necessário.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/CheckInConcreto.cs" line="59" column="30" bodyfile="dados/CheckInConcreto.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_check_in_concreto_1ae416699d85c60041d7737e9003186177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool dados.CheckInConcreto.CarregarCheckIns</definition>
+        <argsstring>(string caminhoFicheiro)</argsstring>
+        <name>CarregarCheckIns</name>
+        <qualifiedname>dados.CheckInConcreto.CarregarCheckIns</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega os check-ins a partir de um ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caminho do ficheiro de onde os check-ins serão carregados.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna true, indicando que os check-ins foram carregados com sucesso. A lógica de carregamento pode ser ajustada conforme necessário.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/CheckInConcreto.cs" line="69" column="30" bodyfile="dados/CheckInConcreto.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classdados_1_1_check_in_concreto_1a2e620bf526a507378c79eb18d2ecca78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool dados.CheckInConcreto.CheckInRealizado</definition>
+        <argsstring>()</argsstring>
+        <name>CheckInRealizado</name>
+        <qualifiedname>dados.CheckInConcreto.CheckInRealizado</qualifiedname>
+        <briefdescription>
+<para>Verifica se o check-in foi realizado com base na data e hora do check-in. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Retorna true se o check-in foi realizado (ou seja, se a data/hora do check-in foi definida), caso contrário retorna false.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/CheckInConcreto.cs" line="78" column="30" bodyfile="dados/CheckInConcreto.cs" bodystart="78" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: João Barbosa Created on: 18/12/2024 16:11:51. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CheckIn</label>
+        <link refid="classdados_1_1_check_in"/>
+      </node>
+      <node id="1">
+        <label>dados.CheckInConcreto</label>
+        <link refid="classdados_1_1_check_in_concreto"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CheckIn</label>
+        <link refid="classdados_1_1_check_in"/>
+      </node>
+      <node id="1">
+        <label>dados.CheckInConcreto</label>
+        <link refid="classdados_1_1_check_in_concreto"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dados/CheckInConcreto.cs" line="23" column="11" bodyfile="dados/CheckInConcreto.cs" bodystart="24" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classdados_1_1_check_in_concreto_1a5683ab0aa979197cfa0c42a4f4d99da3" prot="public" virt="non-virtual"><scope>dados::CheckInConcreto</scope><name>AdicionarCheckIn</name></member>
+      <member refid="classdados_1_1_check_in_concreto_1ae416699d85c60041d7737e9003186177" prot="public" virt="non-virtual"><scope>dados::CheckInConcreto</scope><name>CarregarCheckIns</name></member>
+      <member refid="classdados_1_1_check_in_1a4470e67ec4141b3fcd9de1bdadc2c927" prot="public" virt="non-virtual"><scope>dados::CheckInConcreto</scope><name>CheckIn</name></member>
+      <member refid="classdados_1_1_check_in_concreto_1a034ed7dd09b137951ff8f52b3cb94f7e" prot="public" virt="non-virtual"><scope>dados::CheckInConcreto</scope><name>CheckInConcreto</name></member>
+      <member refid="classdados_1_1_check_in_concreto_1adfa368090d6e6c4c0b065aaf1aa431b8" prot="public" virt="non-virtual"><scope>dados::CheckInConcreto</scope><name>CheckInConcreto</name></member>
+      <member refid="classdados_1_1_check_in_concreto_1a2e620bf526a507378c79eb18d2ecca78" prot="public" virt="non-virtual"><scope>dados::CheckInConcreto</scope><name>CheckInRealizado</name></member>
+      <member refid="classdados_1_1_check_in_1a24d11f2f1288711729f3a2cbd49d8f8c" prot="public" virt="non-virtual"><scope>dados::CheckInConcreto</scope><name>CodigoReserva</name></member>
+      <member refid="classdados_1_1_check_in_1abad8df22104ea99eef0728bca0bd89c1" prot="public" virt="non-virtual"><scope>dados::CheckInConcreto</scope><name>DataHoraCheckIn</name></member>
+      <member refid="classdados_1_1_check_in_concreto_1afad1cbbd5477c4fab9d662b16b4681f0" prot="public" virt="non-virtual"><scope>dados::CheckInConcreto</scope><name>GuardarCheckIns</name></member>
+      <member refid="classdados_1_1_check_in_1a7199a1060c8f25f55a2cd452cf900613" prot="public" virt="non-virtual"><scope>dados::CheckInConcreto</scope><name>RegistarCheckIn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

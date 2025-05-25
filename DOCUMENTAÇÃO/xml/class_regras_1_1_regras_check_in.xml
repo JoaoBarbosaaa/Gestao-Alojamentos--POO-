@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="class_regras_1_1_regras_check_in" kind="class" language="C#" prot="public">
+    <compoundname>Regras::RegrasCheckIn</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_regras_1_1_regras_check_in_1a3ecaac0cc910df634924dc2ad72c05fc" prot="private" static="no" mutable="no">
+        <type><ref refid="classdados_1_1_gestao_check_in" kindref="compound">GestaoCheckIn</ref></type>
+        <definition>GestaoCheckIn Regras.RegrasCheckIn.gestaoCheckIn</definition>
+        <argsstring></argsstring>
+        <name>gestaoCheckIn</name>
+        <qualifiedname>Regras.RegrasCheckIn.gestaoCheckIn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasCheckIn.cs" line="28" column="31" bodyfile="Regras/RegrasCheckIn.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_regras_1_1_regras_check_in_1a7df8934c3ffc942aa75be13bb2c207af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Regras.RegrasCheckIn.RegrasCheckIn</definition>
+        <argsstring>()</argsstring>
+        <name>RegrasCheckIn</name>
+        <qualifiedname>Regras.RegrasCheckIn.RegrasCheckIn</qualifiedname>
+        <briefdescription>
+<para>Construtor da classe <ref refid="class_regras_1_1_regras_check_in" kindref="compound">RegrasCheckIn</ref>. Inicializa uma nova instância de GestaoCheckIn. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasCheckIn.cs" line="33" column="16" bodyfile="Regras/RegrasCheckIn.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_1_1_regras_check_in_1a93d84309c5eb749eb3ed7dc4328b5d7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Regras.RegrasCheckIn.AdicionarCheckInRegra</definition>
+        <argsstring>(CheckInBO checkIn)</argsstring>
+        <name>AdicionarCheckInRegra</name>
+        <qualifiedname>Regras.RegrasCheckIn.AdicionarCheckInRegra</qualifiedname>
+        <param>
+          <type><ref refid="class_b_o_1_1_check_in_b_o" kindref="compound">CheckInBO</ref></type>
+          <declname>checkIn</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona um check-in à gestão de check-ins. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>checkIn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O check-in a ser adicionado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna <computeroutput>true</computeroutput> se o check-in foi adicionado com sucesso, caso contrário, retorna <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasCheckIn.cs" line="44" column="21" bodyfile="Regras/RegrasCheckIn.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_1_1_regras_check_in_1a16c297f952409ec5a6ea0e67551cb62c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Regras.RegrasCheckIn.GuardarCheckInsRegra</definition>
+        <argsstring>(string caminhoFicheiro)</argsstring>
+        <name>GuardarCheckInsRegra</name>
+        <qualifiedname>Regras.RegrasCheckIn.GuardarCheckInsRegra</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Guarda os check-ins em um ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caminho do ficheiro onde os check-ins serão guardados.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna <computeroutput>true</computeroutput> se os check-ins foram guardados com sucesso, caso contrário, retorna <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasCheckIn.cs" line="55" column="21" bodyfile="Regras/RegrasCheckIn.cs" bodystart="55" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_1_1_regras_check_in_1a7e8aba2557754018857bfc3820348d0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Regras.RegrasCheckIn.CarregarCheckInsRegra</definition>
+        <argsstring>(string caminhoFicheiro)</argsstring>
+        <name>CarregarCheckInsRegra</name>
+        <qualifiedname>Regras.RegrasCheckIn.CarregarCheckInsRegra</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega os check-ins a partir de um ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caminho do ficheiro de onde os check-ins serão carregados.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna <computeroutput>true</computeroutput> se os check-ins foram carregados com sucesso, caso contrário, retorna <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasCheckIn.cs" line="91" column="21" bodyfile="Regras/RegrasCheckIn.cs" bodystart="91" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_1_1_regras_check_in_1a4887d283011fd27c17f9c691f2c1e1ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Regras.RegrasCheckIn.RealizarCheckInRegras</definition>
+        <argsstring>(int codigoReserva)</argsstring>
+        <name>RealizarCheckInRegras</name>
+        <qualifiedname>Regras.RegrasCheckIn.RealizarCheckInRegras</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>codigoReserva</declname>
+        </param>
+        <briefdescription>
+<para>Realiza o check-in para a reserva especificada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>codigoReserva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código da reserva para a qual o check-in será realizado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna <computeroutput>true</computeroutput> se o check-in foi realizado com sucesso, caso contrário, retorna <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasCheckIn.cs" line="131" column="21" bodyfile="Regras/RegrasCheckIn.cs" bodystart="131" bodyend="134"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: João Barbosa Created on: 18/12/2024 11:23:58. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Regras/RegrasCheckIn.cs" line="25" column="11" bodyfile="Regras/RegrasCheckIn.cs" bodystart="26" bodyend="136"/>
+    <listofallmembers>
+      <member refid="class_regras_1_1_regras_check_in_1a93d84309c5eb749eb3ed7dc4328b5d7a" prot="public" virt="non-virtual"><scope>Regras::RegrasCheckIn</scope><name>AdicionarCheckInRegra</name></member>
+      <member refid="class_regras_1_1_regras_check_in_1a7e8aba2557754018857bfc3820348d0c" prot="public" virt="non-virtual"><scope>Regras::RegrasCheckIn</scope><name>CarregarCheckInsRegra</name></member>
+      <member refid="class_regras_1_1_regras_check_in_1a3ecaac0cc910df634924dc2ad72c05fc" prot="private" virt="non-virtual"><scope>Regras::RegrasCheckIn</scope><name>gestaoCheckIn</name></member>
+      <member refid="class_regras_1_1_regras_check_in_1a16c297f952409ec5a6ea0e67551cb62c" prot="public" virt="non-virtual"><scope>Regras::RegrasCheckIn</scope><name>GuardarCheckInsRegra</name></member>
+      <member refid="class_regras_1_1_regras_check_in_1a4887d283011fd27c17f9c691f2c1e1ac" prot="public" virt="non-virtual"><scope>Regras::RegrasCheckIn</scope><name>RealizarCheckInRegras</name></member>
+      <member refid="class_regras_1_1_regras_check_in_1a7df8934c3ffc942aa75be13bb2c207af" prot="public" virt="non-virtual"><scope>Regras::RegrasCheckIn</scope><name>RegrasCheckIn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

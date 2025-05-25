@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="classdados_1_1_reserva" kind="class" language="C#" prot="public">
+    <compoundname>dados::Reserva</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdados_1_1_reserva_1a229a0d94e3c4c3e7efe19ae1d771f77c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dados.Reserva.numIdentificacao</definition>
+        <argsstring></argsstring>
+        <name>numIdentificacao</name>
+        <qualifiedname>dados.Reserva.numIdentificacao</qualifiedname>
+        <briefdescription>
+<para>Número de identificação do cliente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="29" column="13" bodyfile="dados/Reserva.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdados_1_1_reserva_1abb7f2079a94864de03c9f2b09ea03fc1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dados.Reserva.numAlojamento</definition>
+        <argsstring></argsstring>
+        <name>numAlojamento</name>
+        <qualifiedname>dados.Reserva.numAlojamento</qualifiedname>
+        <briefdescription>
+<para>Número de identificação do alojamento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="35" column="13" bodyfile="dados/Reserva.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdados_1_1_reserva_1a2c859195af2efad672c5a219124e8925" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime dados.Reserva.dataEntrada</definition>
+        <argsstring></argsstring>
+        <name>dataEntrada</name>
+        <qualifiedname>dados.Reserva.dataEntrada</qualifiedname>
+        <briefdescription>
+<para>Data de entrada na reserva. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="41" column="18" bodyfile="dados/Reserva.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdados_1_1_reserva_1a06a3026e6ab4b529f0bdba6d1ce3a07f" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime dados.Reserva.dataSaida</definition>
+        <argsstring></argsstring>
+        <name>dataSaida</name>
+        <qualifiedname>dados.Reserva.dataSaida</qualifiedname>
+        <briefdescription>
+<para>Data de saída na reserva. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="46" column="18" bodyfile="dados/Reserva.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdados_1_1_reserva_1a6046b4beca5c8030c4fc7001f6566c61" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dados.Reserva.quantidadeQuartos</definition>
+        <argsstring></argsstring>
+        <name>quantidadeQuartos</name>
+        <qualifiedname>dados.Reserva.quantidadeQuartos</qualifiedname>
+        <briefdescription>
+<para>Quantidade de quartos reservados. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="51" column="13" bodyfile="dados/Reserva.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdados_1_1_reserva_1a07252a28d6ac10948a0389815f84de4c" prot="private" static="no" mutable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? dados.Reserva.dataHoraCheckIn</definition>
+        <argsstring></argsstring>
+        <name>dataHoraCheckIn</name>
+        <qualifiedname>dados.Reserva.dataHoraCheckIn</qualifiedname>
+        <briefdescription>
+<para>Data e hora do check-in, se realizado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="57" column="18" bodyfile="dados/Reserva.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdados_1_1_reserva_1ab9c27a5586b2e5f0680c32865a5ef840" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dados.Reserva.codigoReserva</definition>
+        <argsstring></argsstring>
+        <name>codigoReserva</name>
+        <qualifiedname>dados.Reserva.codigoReserva</qualifiedname>
+        <briefdescription>
+<para>Código da reserva. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="62" column="13" bodyfile="dados/Reserva.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdados_1_1_reserva_1a2e690eb2c2fd1043544814ed0594d8a0" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string dados.Reserva.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>dados.Reserva.status</qualifiedname>
+        <briefdescription>
+<para>Estado da reserva (ativo, cancelado, expirado). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="67" column="16" bodyfile="dados/Reserva.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classdados_1_1_reserva_1aca5c47bce6102cf3ce8f470a9928580e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int dados.Reserva.NumIdentificacao</definition>
+        <argsstring></argsstring>
+        <name>NumIdentificacao</name>
+        <qualifiedname>dados.Reserva.NumIdentificacao</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o número de identificação do Cliente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="76" column="20" bodyfile="dados/Reserva.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="classdados_1_1_reserva_1a2cc53e2feb68fab34346eaa6c9521db3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int dados.Reserva.NumAlojamento</definition>
+        <argsstring></argsstring>
+        <name>NumAlojamento</name>
+        <qualifiedname>dados.Reserva.NumAlojamento</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o número de Identificação do Alojamento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="85" column="20" bodyfile="dados/Reserva.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="property" id="classdados_1_1_reserva_1a4c01cb2a71edc791f6dfa8d85f778432" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime dados.Reserva.DataEntrada</definition>
+        <argsstring></argsstring>
+        <name>DataEntrada</name>
+        <qualifiedname>dados.Reserva.DataEntrada</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a data de entrada na reserva. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="95" column="25" bodyfile="dados/Reserva.cs" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="property" id="classdados_1_1_reserva_1ad6d0658ca52d0e1a353c530e711cd9d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime dados.Reserva.DataSaida</definition>
+        <argsstring></argsstring>
+        <name>DataSaida</name>
+        <qualifiedname>dados.Reserva.DataSaida</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a data de saída na reserva. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="104" column="25" bodyfile="dados/Reserva.cs" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="property" id="classdados_1_1_reserva_1af49c9d155d4f9a36fc66d2d8e1bd8c18" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int dados.Reserva.QuantidadeQuartos</definition>
+        <argsstring></argsstring>
+        <name>QuantidadeQuartos</name>
+        <qualifiedname>dados.Reserva.QuantidadeQuartos</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a quantidade de quartos reservados. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="113" column="20" bodyfile="dados/Reserva.cs" bodystart="114" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="property" id="classdados_1_1_reserva_1a188e38a31d0f4bd4d5ea99a4f559652f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? dados.Reserva.DataHoraCheckIn</definition>
+        <argsstring></argsstring>
+        <name>DataHoraCheckIn</name>
+        <qualifiedname>dados.Reserva.DataHoraCheckIn</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a data e hora do check-in, se realizado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="123" column="25" bodyfile="dados/Reserva.cs" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="property" id="classdados_1_1_reserva_1a448a266aac68472c51f98f5ddd741a64" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int dados.Reserva.CodigoReserva</definition>
+        <argsstring></argsstring>
+        <name>CodigoReserva</name>
+        <qualifiedname>dados.Reserva.CodigoReserva</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o código da reserva. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="132" column="20" bodyfile="dados/Reserva.cs" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="property" id="classdados_1_1_reserva_1adf5724fcaa2d3749ea521523b9eb6470" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string dados.Reserva.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <qualifiedname>dados.Reserva.Status</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o estado da reserva (ativo, cancelado, expirado) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="141" column="23" bodyfile="dados/Reserva.cs" bodystart="142" bodyend="145"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdados_1_1_reserva_1a3733cec45effc65eaa75b04bc43ce7e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>dados.Reserva.Reserva</definition>
+        <argsstring>(int numIdentificacao, int numAlojamento, DateTime dataEntrada, DateTime dataSaida, int quantidadeQuartos)</argsstring>
+        <name>Reserva</name>
+        <qualifiedname>dados.Reserva.Reserva</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numIdentificacao</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numAlojamento</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataEntrada</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataSaida</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>quantidadeQuartos</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa uma nova instância da classe <ref refid="classdados_1_1_reserva" kindref="compound">Reserva</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cliente</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Cliente que fez a reserva.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alojamento</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alojamento onde será feita a reserva.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataEntrada</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de entrada na reserva.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataSaida</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de saída na reserva.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>quantidadeQuartos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Quantidade de quartos a serem reservados.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="158" column="16" bodyfile="dados/Reserva.cs" bodystart="158" bodyend="165"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classdados_1_1_reserva_1aea68794eeec8081a99f029ba8519797b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdados_1_1_reserva" kindref="compound">Reserva</ref></type>
+        <definition>static Reserva dados.Reserva.CriaReserva</definition>
+        <argsstring>(int numIdentificacao, int numAlojamento, DateTime dataEntrada, DateTime dataSaida, int quantidadeQuartos)</argsstring>
+        <name>CriaReserva</name>
+        <qualifiedname>dados.Reserva.CriaReserva</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numIdentificacao</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numAlojamento</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataEntrada</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataSaida</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>quantidadeQuartos</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa uma nova instância da classe <ref refid="classdados_1_1_reserva" kindref="compound">Reserva</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cliente</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pessoa cliente que realizou a reserva.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alojamento</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alojamento onde será realizada a reserva.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataEntrada</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data prevista para entrada na reserva.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataSaida</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data prevista para saída da reserva.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>quantidadeQuartos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Quantidade de quartos incluídos na reserva.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/Reserva.cs" line="177" column="31" bodyfile="dados/Reserva.cs" bodystart="177" bodyend="180"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: João Barbosa Created on: 17/12/2024 14:36:54. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dados/Reserva.cs" line="22" column="11" bodyfile="dados/Reserva.cs" bodystart="23" bodyend="182"/>
+    <listofallmembers>
+      <member refid="classdados_1_1_reserva_1a448a266aac68472c51f98f5ddd741a64" prot="public" virt="non-virtual"><scope>dados::Reserva</scope><name>CodigoReserva</name></member>
+      <member refid="classdados_1_1_reserva_1ab9c27a5586b2e5f0680c32865a5ef840" prot="private" virt="non-virtual"><scope>dados::Reserva</scope><name>codigoReserva</name></member>
+      <member refid="classdados_1_1_reserva_1aea68794eeec8081a99f029ba8519797b" prot="public" virt="non-virtual"><scope>dados::Reserva</scope><name>CriaReserva</name></member>
+      <member refid="classdados_1_1_reserva_1a4c01cb2a71edc791f6dfa8d85f778432" prot="public" virt="non-virtual"><scope>dados::Reserva</scope><name>DataEntrada</name></member>
+      <member refid="classdados_1_1_reserva_1a2c859195af2efad672c5a219124e8925" prot="private" virt="non-virtual"><scope>dados::Reserva</scope><name>dataEntrada</name></member>
+      <member refid="classdados_1_1_reserva_1a188e38a31d0f4bd4d5ea99a4f559652f" prot="public" virt="non-virtual"><scope>dados::Reserva</scope><name>DataHoraCheckIn</name></member>
+      <member refid="classdados_1_1_reserva_1a07252a28d6ac10948a0389815f84de4c" prot="private" virt="non-virtual"><scope>dados::Reserva</scope><name>dataHoraCheckIn</name></member>
+      <member refid="classdados_1_1_reserva_1ad6d0658ca52d0e1a353c530e711cd9d5" prot="public" virt="non-virtual"><scope>dados::Reserva</scope><name>DataSaida</name></member>
+      <member refid="classdados_1_1_reserva_1a06a3026e6ab4b529f0bdba6d1ce3a07f" prot="private" virt="non-virtual"><scope>dados::Reserva</scope><name>dataSaida</name></member>
+      <member refid="classdados_1_1_reserva_1a2cc53e2feb68fab34346eaa6c9521db3" prot="public" virt="non-virtual"><scope>dados::Reserva</scope><name>NumAlojamento</name></member>
+      <member refid="classdados_1_1_reserva_1abb7f2079a94864de03c9f2b09ea03fc1" prot="private" virt="non-virtual"><scope>dados::Reserva</scope><name>numAlojamento</name></member>
+      <member refid="classdados_1_1_reserva_1aca5c47bce6102cf3ce8f470a9928580e" prot="public" virt="non-virtual"><scope>dados::Reserva</scope><name>NumIdentificacao</name></member>
+      <member refid="classdados_1_1_reserva_1a229a0d94e3c4c3e7efe19ae1d771f77c" prot="private" virt="non-virtual"><scope>dados::Reserva</scope><name>numIdentificacao</name></member>
+      <member refid="classdados_1_1_reserva_1af49c9d155d4f9a36fc66d2d8e1bd8c18" prot="public" virt="non-virtual"><scope>dados::Reserva</scope><name>QuantidadeQuartos</name></member>
+      <member refid="classdados_1_1_reserva_1a6046b4beca5c8030c4fc7001f6566c61" prot="private" virt="non-virtual"><scope>dados::Reserva</scope><name>quantidadeQuartos</name></member>
+      <member refid="classdados_1_1_reserva_1a3733cec45effc65eaa75b04bc43ce7e8" prot="public" virt="non-virtual"><scope>dados::Reserva</scope><name>Reserva</name></member>
+      <member refid="classdados_1_1_reserva_1adf5724fcaa2d3749ea521523b9eb6470" prot="public" virt="non-virtual"><scope>dados::Reserva</scope><name>Status</name></member>
+      <member refid="classdados_1_1_reserva_1a2e690eb2c2fd1043544814ed0594d8a0" prot="private" virt="non-virtual"><scope>dados::Reserva</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

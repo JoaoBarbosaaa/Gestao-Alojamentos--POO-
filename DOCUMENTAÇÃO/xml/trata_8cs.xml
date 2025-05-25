@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="trata_8cs" kind="file" language="C#">
+    <compoundname>trata.cs</compoundname>
+    <innerclass refid="classtrata_problemas_1_1_base_reserva_exception" prot="public">trataProblemas::BaseReservaException</innerclass>
+    <innerclass refid="classtrata_problemas_1_1_acesso_negado_exception" prot="public">trataProblemas::AcessoNegadoException</innerclass>
+    <innerclass refid="classtrata_problemas_1_1_erro_de_i_o_exception" prot="public">trataProblemas::ErroDeIOException</innerclass>
+    <innerclass refid="classtrata_problemas_1_1_serializacao_exception" prot="public">trataProblemas::SerializacaoException</innerclass>
+    <innerclass refid="classtrata_problemas_1_1_ficheiro_nao_encontrado_exception" prot="public">trataProblemas::FicheiroNaoEncontradoException</innerclass>
+    <innernamespace refid="namespacetrata_problemas">trataProblemas</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/><sp/><sp/>&lt;copyright<sp/>file=&quot;Regras.cs&quot;<sp/>company=&quot;IPCA&quot;&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>2024<sp/>All<sp/>Rights<sp/>Reserved</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/><sp/><sp/>&lt;/copyright&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/><sp/><sp/>&lt;author&gt;João<sp/>Barbosa&lt;/author&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*<sp/><sp/><sp/>&lt;date&gt;17/12/2024<sp/>18:27:39&lt;/date&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/><sp/><sp/>&lt;description&gt;&lt;/description&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Linq;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespacetrata_problemas" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacetrata_problemas" kindref="compound">trataProblemas</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classtrata_problemas_1_1_base_reserva_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtrata_problemas_1_1_base_reserva_exception" kindref="compound">BaseReservaException</ref><sp/>:<sp/>Exception</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classtrata_problemas_1_1_base_reserva_exception_1acc3286b3c07309a05c53872a3c64116e" kindref="member">BaseReservaException</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>codigoErro)<sp/>:<sp/>base(codigoErro)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classtrata_problemas_1_1_acesso_negado_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtrata_problemas_1_1_acesso_negado_exception" kindref="compound">AcessoNegadoException</ref><sp/>:<sp/><ref refid="classtrata_problemas_1_1_base_reserva_exception" kindref="compound">BaseReservaException</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classtrata_problemas_1_1_acesso_negado_exception_1aa07629e54803f5a1a28e0ae968f5e8a3" kindref="member">AcessoNegadoException</ref>()<sp/>:<sp/>base(</highlight><highlight class="stringliteral">&quot;-1&quot;</highlight><highlight class="normal">)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classtrata_problemas_1_1_erro_de_i_o_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtrata_problemas_1_1_erro_de_i_o_exception" kindref="compound">ErroDeIOException</ref><sp/>:<sp/><ref refid="classtrata_problemas_1_1_base_reserva_exception" kindref="compound">BaseReservaException</ref></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classtrata_problemas_1_1_erro_de_i_o_exception_1a165a3b7b147298ef13307d18c1429f0f" kindref="member">ErroDeIOException</ref>()<sp/>:<sp/>base(</highlight><highlight class="stringliteral">&quot;-2&quot;</highlight><highlight class="normal">)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classtrata_problemas_1_1_serializacao_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtrata_problemas_1_1_serializacao_exception" kindref="compound">SerializacaoException</ref><sp/>:<sp/><ref refid="classtrata_problemas_1_1_base_reserva_exception" kindref="compound">BaseReservaException</ref></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classtrata_problemas_1_1_serializacao_exception_1a2e97d513128f145e5d29f5fc3ed0cc32" kindref="member">SerializacaoException</ref>()<sp/>:<sp/>base(</highlight><highlight class="stringliteral">&quot;-3&quot;</highlight><highlight class="normal">)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="classtrata_problemas_1_1_ficheiro_nao_encontrado_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtrata_problemas_1_1_ficheiro_nao_encontrado_exception" kindref="compound">FicheiroNaoEncontradoException</ref><sp/>:<sp/><ref refid="classtrata_problemas_1_1_base_reserva_exception" kindref="compound">BaseReservaException</ref></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classtrata_problemas_1_1_ficheiro_nao_encontrado_exception_1af5b30c7a84870148015378595f92fdb1" kindref="member">FicheiroNaoEncontradoException</ref>()<sp/>:<sp/>base(</highlight><highlight class="stringliteral">&quot;-5&quot;</highlight><highlight class="normal">)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="trataProblemas/trata.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jo\u00E3o\\OneDrive - Instituto Polit\u00E9cnico do C\u00E1vado e do Ave\\Desktop\\trabalho por camadas\\SegundaFase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E01B250-3C67-47ED-A95B-2352F396AB13}|dados\\dados.csproj|c:\\users\\jo\u00E3o\\onedrive - instituto polit\u00E9cnico do c\u00E1vado e do ave\\desktop\\trabalho por camadas\\segundafase\\dados\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E01B250-3C67-47ED-A95B-2352F396AB13}|dados\\dados.csproj|solutionrelative:dados\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckIn.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\OneDrive - Instituto Polit\u00E9cnico do C\u00E1vado e do Ave\\Desktop\\trabalho por camadas\\SegundaFase\\dados\\CheckIn.cs",
+              "RelativeDocumentMoniker": "dados\\CheckIn.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\OneDrive - Instituto Polit\u00E9cnico do C\u00E1vado e do Ave\\Desktop\\trabalho por camadas\\SegundaFase\\dados\\CheckIn.cs",
+              "RelativeToolTip": "dados\\CheckIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:50:06.302Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

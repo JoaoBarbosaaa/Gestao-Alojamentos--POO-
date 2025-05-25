@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="class_reservas_tests_1_1_reservas_tests" kind="class" language="C#" prot="public">
+    <compoundname>ReservasTests::ReservasTests</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_reservas_tests_1_1_reservas_tests_1a3b0adf90f78f0cc0cea205ab4d7d3b7e" prot="private" static="no" mutable="no">
+        <type><ref refid="classdados_1_1_reservas" kindref="compound">Reservas</ref></type>
+        <definition>Reservas ReservasTests.ReservasTests.reservas</definition>
+        <argsstring></argsstring>
+        <name>reservas</name>
+        <qualifiedname>ReservasTests.ReservasTests.reservas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TestesReserva/testesAdicionarReserva.cs" line="18" column="26" bodyfile="TestesReserva/testesAdicionarReserva.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_reservas_tests_1_1_reservas_tests_1abd051f76694757caed2dfda0aed30aec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReservasTests.ReservasTests.Setup</definition>
+        <argsstring>()</argsstring>
+        <name>Setup</name>
+        <qualifiedname>ReservasTests.ReservasTests.Setup</qualifiedname>
+        <briefdescription>
+<para>Inicializa uma nova instância da classe Reservas antes de cada teste. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TestesReserva/testesAdicionarReserva.cs" line="25" column="21" bodyfile="TestesReserva/testesAdicionarReserva.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reservas_tests_1_1_reservas_tests_1ac364406878aeb15f677de91a7e9b0539" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReservasTests.ReservasTests.AdicionarReservaValida</definition>
+        <argsstring>()</argsstring>
+        <name>AdicionarReservaValida</name>
+        <qualifiedname>ReservasTests.ReservasTests.AdicionarReservaValida</qualifiedname>
+        <briefdescription>
+<para>Testa o método <ref refid="classdados_1_1_reservas_1a9084a1280a04a743b0f621e3af7fb219" kindref="member">Reservas.AdicionarReserva</ref> com uma reserva válida. Verifica se o código da reserva retornado é diferente de -1 e corresponde ao valor esperado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TestesReserva/testesAdicionarReserva.cs" line="37" column="21" bodyfile="TestesReserva/testesAdicionarReserva.cs" bodystart="37" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reservas_tests_1_1_reservas_tests_1a1f7100898896141011d803bce554a2db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReservasTests.ReservasTests.AdicionarReservaInvalida</definition>
+        <argsstring>()</argsstring>
+        <name>AdicionarReservaInvalida</name>
+        <qualifiedname>ReservasTests.ReservasTests.AdicionarReservaInvalida</qualifiedname>
+        <briefdescription>
+<para>Testa o método <ref refid="classdados_1_1_reservas_1a9084a1280a04a743b0f621e3af7fb219" kindref="member">Reservas.AdicionarReserva</ref> com uma reserva inválida (data de saída anterior à data de entrada). Verifica se o código retornado é -1. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TestesReserva/testesAdicionarReserva.cs" line="56" column="21" bodyfile="TestesReserva/testesAdicionarReserva.cs" bodystart="56" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reservas_tests_1_1_reservas_tests_1a80b944da7e51258149ed7fc2129c95fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReservasTests.ReservasTests.AdicionarReservaQuartosNegativos</definition>
+        <argsstring>()</argsstring>
+        <name>AdicionarReservaQuartosNegativos</name>
+        <qualifiedname>ReservasTests.ReservasTests.AdicionarReservaQuartosNegativos</qualifiedname>
+        <briefdescription>
+<para>Testa o método <ref refid="classdados_1_1_reservas_1a9084a1280a04a743b0f621e3af7fb219" kindref="member">Reservas.AdicionarReserva</ref> com uma reserva contendo uma quantidade negativa de quartos. Verifica se o código retornado é -1. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TestesReserva/testesAdicionarReserva.cs" line="74" column="21" bodyfile="TestesReserva/testesAdicionarReserva.cs" bodystart="74" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TestesReserva/testesAdicionarReserva.cs" line="16" column="11" bodyfile="TestesReserva/testesAdicionarReserva.cs" bodystart="17" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_reservas_tests_1_1_reservas_tests_1a1f7100898896141011d803bce554a2db" prot="public" virt="non-virtual"><scope>ReservasTests::ReservasTests</scope><name>AdicionarReservaInvalida</name></member>
+      <member refid="class_reservas_tests_1_1_reservas_tests_1a80b944da7e51258149ed7fc2129c95fe" prot="public" virt="non-virtual"><scope>ReservasTests::ReservasTests</scope><name>AdicionarReservaQuartosNegativos</name></member>
+      <member refid="class_reservas_tests_1_1_reservas_tests_1ac364406878aeb15f677de91a7e9b0539" prot="public" virt="non-virtual"><scope>ReservasTests::ReservasTests</scope><name>AdicionarReservaValida</name></member>
+      <member refid="class_reservas_tests_1_1_reservas_tests_1a3b0adf90f78f0cc0cea205ab4d7d3b7e" prot="private" virt="non-virtual"><scope>ReservasTests::ReservasTests</scope><name>reservas</name></member>
+      <member refid="class_reservas_tests_1_1_reservas_tests_1abd051f76694757caed2dfda0aed30aec" prot="public" virt="non-virtual"><scope>ReservasTests::ReservasTests</scope><name>Setup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

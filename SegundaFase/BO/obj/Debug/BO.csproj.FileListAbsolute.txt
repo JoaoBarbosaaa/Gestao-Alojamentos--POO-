@@ -1,0 +1,6 @@
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\BO\bin\Debug\BO.dll
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\BO\bin\Debug\BO.pdb
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\BO\obj\Debug\BO.csproj.AssemblyReference.cache
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\BO\obj\Debug\BO.csproj.CoreCompileInputs.cache
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\BO\obj\Debug\BO.dll
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\BO\obj\Debug\BO.pdb

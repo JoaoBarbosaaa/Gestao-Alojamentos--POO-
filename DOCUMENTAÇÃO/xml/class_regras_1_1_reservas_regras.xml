@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="class_regras_1_1_reservas_regras" kind="class" language="C#" prot="public">
+    <compoundname>Regras::ReservasRegras</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_regras_1_1_reservas_regras_1a5fd5e7b39bbd4567b21c3eb10d10e941" prot="private" static="no" mutable="no">
+        <type><ref refid="classdados_1_1_reservas" kindref="compound">Reservas</ref></type>
+        <definition>Reservas Regras.ReservasRegras.reservas</definition>
+        <argsstring></argsstring>
+        <name>reservas</name>
+        <qualifiedname>Regras.ReservasRegras.reservas</qualifiedname>
+        <initializer>= new <ref refid="classdados_1_1_reservas" kindref="compound">Reservas</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/ReservasRegras.cs" line="28" column="26" bodyfile="Regras/ReservasRegras.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_regras_1_1_reservas_regras_1ab3a660a4d323126c6818f9e136be4f54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Regras.ReservasRegras.AdicionarReservaBO</definition>
+        <argsstring>(ReservaBO reservaBO)</argsstring>
+        <name>AdicionarReservaBO</name>
+        <qualifiedname>Regras.ReservasRegras.AdicionarReservaBO</qualifiedname>
+        <param>
+          <type><ref refid="class_b_o_1_1_reserva_b_o" kindref="compound">ReservaBO</ref></type>
+          <declname>reservaBO</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona uma nova reserva à lista de reservas, realizando as devidas validações. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reservaBO</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto que contém os dados da reserva a ser adicionada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o código da reserva se adicionada com sucesso, ou um código de erro específico caso ocorra uma falha.</para>
+</simplesect>
+</para>
+<para>Os seguintes códigos de erro são retornados: <itemizedlist>
+<listitem>
+<para>-1: Reserva inválida (objeto nulo) </para>
+</listitem>
+<listitem>
+<para>-2: Data de entrada inválida (antes da data atual) </para>
+</listitem>
+<listitem>
+<para>-3: Intervalo de datas inválido (data de saída anterior à de entrada) </para>
+</listitem>
+<listitem>
+<para>-4: Quantidade de quartos inválida (menor ou igual a 0) </para>
+</listitem>
+<listitem>
+<para>-5: Falha ao adicionar a reserva </para>
+</listitem>
+</itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/ReservasRegras.cs" line="43" column="20" bodyfile="Regras/ReservasRegras.cs" bodystart="43" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_1_1_reservas_regras_1a5c16216292a568c58c7c5eaaf990ef89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Regras.ReservasRegras.RemoverReservaRegra</definition>
+        <argsstring>(int codigoReserva)</argsstring>
+        <name>RemoverReservaRegra</name>
+        <qualifiedname>Regras.ReservasRegras.RemoverReservaRegra</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>codigoReserva</declname>
+        </param>
+        <briefdescription>
+<para>Remove uma reserva com base no código fornecido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>codigoReserva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código da reserva a ser removida.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> se a reserva for removida com sucesso, caso contrário, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/ReservasRegras.cs" line="82" column="21" bodyfile="Regras/ReservasRegras.cs" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_1_1_reservas_regras_1a1f4dc25264fd62d040f7ecc30b8a10c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>decimal</type>
+        <definition>decimal Regras.ReservasRegras.CalcularPrecoReservaRegra</definition>
+        <argsstring>(int codigoReserva, decimal precoPorNoite)</argsstring>
+        <name>CalcularPrecoReservaRegra</name>
+        <qualifiedname>Regras.ReservasRegras.CalcularPrecoReservaRegra</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>codigoReserva</declname>
+        </param>
+        <param>
+          <type>decimal</type>
+          <declname>precoPorNoite</declname>
+        </param>
+        <briefdescription>
+<para>Calcula o preço total da reserva com base no código da reserva e no preço por noite. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>codigoReserva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código da reserva para a qual o preço será calculado.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>precoPorNoite</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Preço por noite de hospedagem.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Preço total da reserva ou 0 se a reserva não for encontrada.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/ReservasRegras.cs" line="94" column="24" bodyfile="Regras/ReservasRegras.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_1_1_reservas_regras_1abe425415bd782ef12e399975d8d27e1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Regras.ReservasRegras.ReservaExisteRegra</definition>
+        <argsstring>(int codigoReserva)</argsstring>
+        <name>ReservaExisteRegra</name>
+        <qualifiedname>Regras.ReservasRegras.ReservaExisteRegra</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>codigoReserva</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se uma reserva existe com base no código fornecido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>codigoReserva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código da reserva a ser verificada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna true se a reserva existir, caso contrário, retorna false.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/ReservasRegras.cs" line="104" column="21" bodyfile="Regras/ReservasRegras.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_1_1_reservas_regras_1af51ec121d1d1a8a8ee815ac6ba384bad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Regras.ReservasRegras.GuardarReservasRegra</definition>
+        <argsstring>(string caminhoFicheiro)</argsstring>
+        <name>GuardarReservasRegra</name>
+        <qualifiedname>Regras.ReservasRegras.GuardarReservasRegra</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Tenta guardar as reservas em um ficheiro especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caminho do ficheiro onde as reservas serão guardadas.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna true se as reservas forem guardadas com sucesso, caso contrário, retorna false.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/ReservasRegras.cs" line="115" column="21" bodyfile="Regras/ReservasRegras.cs" bodystart="115" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_1_1_reservas_regras_1af433ff70105b1c74f4c2260180c2e615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Regras.ReservasRegras.CarregarReservasRegra</definition>
+        <argsstring>(string caminhoFicheiro)</argsstring>
+        <name>CarregarReservasRegra</name>
+        <qualifiedname>Regras.ReservasRegras.CarregarReservasRegra</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Tenta carregar as reservas de um ficheiro especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caminho do ficheiro de onde as reservas serão carregadas.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna true se as reservas forem carregadas com sucesso, caso contrário, retorna false.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/ReservasRegras.cs" line="150" column="21" bodyfile="Regras/ReservasRegras.cs" bodystart="150" bodyend="182"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: João Barbosa Created on: 17/12/2024 16:27:39. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Regras/ReservasRegras.cs" line="26" column="11" bodyfile="Regras/ReservasRegras.cs" bodystart="27" bodyend="184"/>
+    <listofallmembers>
+      <member refid="class_regras_1_1_reservas_regras_1ab3a660a4d323126c6818f9e136be4f54" prot="public" virt="non-virtual"><scope>Regras::ReservasRegras</scope><name>AdicionarReservaBO</name></member>
+      <member refid="class_regras_1_1_reservas_regras_1a1f4dc25264fd62d040f7ecc30b8a10c9" prot="public" virt="non-virtual"><scope>Regras::ReservasRegras</scope><name>CalcularPrecoReservaRegra</name></member>
+      <member refid="class_regras_1_1_reservas_regras_1af433ff70105b1c74f4c2260180c2e615" prot="public" virt="non-virtual"><scope>Regras::ReservasRegras</scope><name>CarregarReservasRegra</name></member>
+      <member refid="class_regras_1_1_reservas_regras_1af51ec121d1d1a8a8ee815ac6ba384bad" prot="public" virt="non-virtual"><scope>Regras::ReservasRegras</scope><name>GuardarReservasRegra</name></member>
+      <member refid="class_regras_1_1_reservas_regras_1a5c16216292a568c58c7c5eaaf990ef89" prot="public" virt="non-virtual"><scope>Regras::ReservasRegras</scope><name>RemoverReservaRegra</name></member>
+      <member refid="class_regras_1_1_reservas_regras_1abe425415bd782ef12e399975d8d27e1a" prot="public" virt="non-virtual"><scope>Regras::ReservasRegras</scope><name>ReservaExisteRegra</name></member>
+      <member refid="class_regras_1_1_reservas_regras_1a5fd5e7b39bbd4567b21c3eb10d10e941" prot="private" virt="non-virtual"><scope>Regras::ReservasRegras</scope><name>reservas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

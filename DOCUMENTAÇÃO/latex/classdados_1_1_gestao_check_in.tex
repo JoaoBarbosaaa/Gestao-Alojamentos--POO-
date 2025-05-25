@@ -1,0 +1,215 @@
+\doxysection{Referência à classe dados.\+Gestao\+Check\+In}
+\hypertarget{classdados_1_1_gestao_check_in}{}\label{classdados_1_1_gestao_check_in}\index{dados.GestaoCheckIn@{dados.GestaoCheckIn}}
+Diagrama de heranças da classe dados.\+Gestao\+Check\+In\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdados_1_1_gestao_check_in}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classdados_1_1_gestao_check_in_a17a4ff2e5b8fd94327cf646e347ae3e3}{Gestao\+Check\+In}} (int codigo\+Reserva)
+\begin{DoxyCompactList}\small\item\em Inicializa uma nova instância da classe \doxylink{classdados_1_1_gestao_check_in}{Gestao\+Check\+In}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classdados_1_1_gestao_check_in_ae86a7b85a8071fd917679a1aac8e17fe}{Adicionar\+Check\+In}} (\mbox{\hyperlink{class_b_o_1_1_check_in_b_o}{Check\+In\+BO}} check\+In\+BO)
+\begin{DoxyCompactList}\small\item\em Adiciona um novo check-\/in à lista de check-\/ins após convertê-\/lo de Check\+In\+BO para \doxylink{classdados_1_1_check_in_concreto}{Check\+In\+Concreto}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classdados_1_1_gestao_check_in_a1cd26fa99f6f88280dab6d131ebbb1bd}{Realizar\+Check\+In}} (int codigo\+Reserva)
+\begin{DoxyCompactList}\small\item\em Realiza o check-\/in para a reserva especificada, criando um novo objeto \doxylink{classdados_1_1_check_in_concreto}{Check\+In\+Concreto} e adicionando-\/o à lista de check-\/ins. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{classdados_1_1_gestao_check_in_ae39223fc53ee7b918dab1b249a44c74a}{Adicionar\+Check\+In}} (\mbox{\hyperlink{classdados_1_1_check_in}{Check\+In}} check\+In)
+\begin{DoxyCompactList}\small\item\em Adiciona um check-\/in à lista de check-\/ins caso ele já tenha sido realizado. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{classdados_1_1_gestao_check_in_aaeeaefe1db96fecbc386f8f60254d438}{Guardar\+Check\+Ins}} (string caminho\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Guarda a lista de check-\/ins no ficheiro especificado. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{classdados_1_1_gestao_check_in_a5feab4f3c8864ae61fa623619fa4156e}{Carregar\+Check\+Ins}} (string caminho\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega a lista de check-\/ins a partir de um ficheiro. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{classdados_1_1_gestao_check_in_a3bca67245334e45c2b496cde5642f06b}{Check\+In\+Realizado}} ()
+\begin{DoxyCompactList}\small\item\em Verifica se o check-\/in foi realizado. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Membros públicos herdados de \mbox{\hyperlink{classdados_1_1_check_in}{dados.\+Check\+In}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classdados_1_1_check_in_a4470e67ec4141b3fcd9de1bdadc2c927}{Check\+In}} (int codigo\+Reserva)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \doxylink{classdados_1_1_check_in}{Check\+In}. Inicializa a propriedade Codigo\+Reserva com o valor fornecido e define a propriedade Data\+Hora\+Check\+In como null, indicando que o check-\/in ainda não foi realizado. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classdados_1_1_check_in_aac908dee3c24f31ea4dd967c49e8665f}{Adicionar\+Check\+In}} (\mbox{\hyperlink{classdados_1_1_check_in}{Check\+In}} check\+In)
+\begin{DoxyCompactList}\small\item\em Método abstrato que deve ser implementado para adicionar um check-\/in. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classdados_1_1_check_in_a2657e238aed4eebc800e556d5762ee9f}{Guardar\+Check\+Ins}} (string caminho\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Método abstrato que deve ser implementado para guardar os check-\/ins em um ficheiro. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classdados_1_1_check_in_a1c44eb1735f0dc1e0debdb3c93e35dfa}{Carregar\+Check\+Ins}} (string caminho\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Método abstrato que deve ser implementado para carregar os check-\/ins de um ficheiro. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classdados_1_1_check_in_a8c2dd805bbfea62faa9c7bd6b3ff452a}{Check\+In\+Realizado}} ()
+\begin{DoxyCompactList}\small\item\em Método abstrato que deve ser implementado para verificar se o check-\/in foi realizado. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classdados_1_1_check_in_a7199a1060c8f25f55a2cd452cf900613}{Registar\+Check\+In}} (Date\+Time data\+Hora)
+\begin{DoxyCompactList}\small\item\em Método responsável por registrar a data e hora do check-\/in. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos Públicos Estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{classdados_1_1_check_in}{Check\+In}} $>$ \mbox{\hyperlink{classdados_1_1_gestao_check_in_afecd130004bb98a8cb33dd44a4bbfb60}{lista\+Check\+Ins}} = new List$<$\mbox{\hyperlink{classdados_1_1_check_in}{Check\+In}}$>$()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Outros membros herdados}
+\doxysubsection*{Propriedades herdados de \mbox{\hyperlink{classdados_1_1_check_in}{dados.\+Check\+In}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classdados_1_1_check_in_a24d11f2f1288711729f3a2cbd49d8f8c}{Codigo\+Reserva}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade que representa o código da reserva associada ao check-\/in. \end{DoxyCompactList}\item 
+Date\+Time? \mbox{\hyperlink{classdados_1_1_check_in_abad8df22104ea99eef0728bca0bd89c1}{Data\+Hora\+Check\+In}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade que representa a data e hora em que o check-\/in foi realizado. Se não houver check-\/in, o valor será null. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação dos Construtores \& Destrutor}
+\Hypertarget{classdados_1_1_gestao_check_in_a17a4ff2e5b8fd94327cf646e347ae3e3}\index{dados.GestaoCheckIn@{dados.GestaoCheckIn}!GestaoCheckIn@{GestaoCheckIn}}
+\index{GestaoCheckIn@{GestaoCheckIn}!dados.GestaoCheckIn@{dados.GestaoCheckIn}}
+\doxysubsubsection{\texorpdfstring{GestaoCheckIn()}{GestaoCheckIn()}}
+{\footnotesize\ttfamily \label{classdados_1_1_gestao_check_in_a17a4ff2e5b8fd94327cf646e347ae3e3} 
+dados.\+Gestao\+Check\+In.\+Gestao\+Check\+In (\begin{DoxyParamCaption}\item[{int}]{codigo\+Reserva}{}\end{DoxyParamCaption})}
+
+
+
+Inicializa uma nova instância da classe \doxylink{classdados_1_1_gestao_check_in}{Gestao\+Check\+In}. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em codigo\+Reserva} & O código da reserva associada ao check-\/in.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{classdados_1_1_gestao_check_in_ae39223fc53ee7b918dab1b249a44c74a}\index{dados.GestaoCheckIn@{dados.GestaoCheckIn}!AdicionarCheckIn@{AdicionarCheckIn}}
+\index{AdicionarCheckIn@{AdicionarCheckIn}!dados.GestaoCheckIn@{dados.GestaoCheckIn}}
+\doxysubsubsection{\texorpdfstring{AdicionarCheckIn()}{AdicionarCheckIn()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classdados_1_1_gestao_check_in_ae39223fc53ee7b918dab1b249a44c74a} 
+override bool dados.\+Gestao\+Check\+In.\+Adicionar\+Check\+In (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdados_1_1_check_in}{Check\+In}}}]{check\+In}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um check-\/in à lista de check-\/ins caso ele já tenha sido realizado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em check\+In} & Objeto do tipo \doxylink{classdados_1_1_check_in}{Check\+In} a ser adicionado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna {\ttfamily true} se o check-\/in foi adicionado com sucesso; retorna {\ttfamily false} caso contrário. 
+\end{DoxyReturn}
+\Hypertarget{classdados_1_1_gestao_check_in_ae86a7b85a8071fd917679a1aac8e17fe}\index{dados.GestaoCheckIn@{dados.GestaoCheckIn}!AdicionarCheckIn@{AdicionarCheckIn}}
+\index{AdicionarCheckIn@{AdicionarCheckIn}!dados.GestaoCheckIn@{dados.GestaoCheckIn}}
+\doxysubsubsection{\texorpdfstring{AdicionarCheckIn()}{AdicionarCheckIn()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classdados_1_1_gestao_check_in_ae86a7b85a8071fd917679a1aac8e17fe} 
+bool dados.\+Gestao\+Check\+In.\+Adicionar\+Check\+In (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_b_o_1_1_check_in_b_o}{Check\+In\+BO}}}]{check\+In\+BO}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um novo check-\/in à lista de check-\/ins após convertê-\/lo de Check\+In\+BO para \doxylink{classdados_1_1_check_in_concreto}{Check\+In\+Concreto}. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em check\+In\+BO} & O objeto Check\+In\+BO que contém os dados do check-\/in a ser adicionado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna {\ttfamily true} após adicionar o check-\/in à lista.
+\end{DoxyReturn}
+\Hypertarget{classdados_1_1_gestao_check_in_a5feab4f3c8864ae61fa623619fa4156e}\index{dados.GestaoCheckIn@{dados.GestaoCheckIn}!CarregarCheckIns@{CarregarCheckIns}}
+\index{CarregarCheckIns@{CarregarCheckIns}!dados.GestaoCheckIn@{dados.GestaoCheckIn}}
+\doxysubsubsection{\texorpdfstring{CarregarCheckIns()}{CarregarCheckIns()}}
+{\footnotesize\ttfamily \label{classdados_1_1_gestao_check_in_a5feab4f3c8864ae61fa623619fa4156e} 
+override bool dados.\+Gestao\+Check\+In.\+Carregar\+Check\+Ins (\begin{DoxyParamCaption}\item[{string}]{caminho\+Ficheiro}{}\end{DoxyParamCaption})}
+
+
+
+Carrega a lista de check-\/ins a partir de um ficheiro. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em caminho\+Ficheiro} & Caminho do ficheiro a ser carregado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna {\ttfamily true} se o carregamento for bem-\/sucedido.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepções}
+{\em Ficheiro\+Nao\+Encontrado\+Exception} & Lançada se o ficheiro não existir.\\
+\hline
+{\em Acesso\+Negado\+Exception} & Sem permissão para acessar o ficheiro.\\
+\hline
+{\em Erro\+De\+IOException} & Erro ao carregar do ficheiro.\\
+\hline
+{\em Serializacao\+Exception} & Erro durante a desserialização dos dados.\\
+\hline
+{\em Base\+Reserva\+Exception} & Erro genérico com código "{}-\/4"{}.\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classdados_1_1_gestao_check_in_a3bca67245334e45c2b496cde5642f06b}\index{dados.GestaoCheckIn@{dados.GestaoCheckIn}!CheckInRealizado@{CheckInRealizado}}
+\index{CheckInRealizado@{CheckInRealizado}!dados.GestaoCheckIn@{dados.GestaoCheckIn}}
+\doxysubsubsection{\texorpdfstring{CheckInRealizado()}{CheckInRealizado()}}
+{\footnotesize\ttfamily \label{classdados_1_1_gestao_check_in_a3bca67245334e45c2b496cde5642f06b} 
+override bool dados.\+Gestao\+Check\+In.\+Check\+In\+Realizado (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica se o check-\/in foi realizado. 
+
+\begin{DoxyReturn}{Retorna}
+Retorna {\ttfamily true} se o check-\/in foi realizado; caso contrário, {\ttfamily false}.
+\end{DoxyReturn}
+\Hypertarget{classdados_1_1_gestao_check_in_aaeeaefe1db96fecbc386f8f60254d438}\index{dados.GestaoCheckIn@{dados.GestaoCheckIn}!GuardarCheckIns@{GuardarCheckIns}}
+\index{GuardarCheckIns@{GuardarCheckIns}!dados.GestaoCheckIn@{dados.GestaoCheckIn}}
+\doxysubsubsection{\texorpdfstring{GuardarCheckIns()}{GuardarCheckIns()}}
+{\footnotesize\ttfamily \label{classdados_1_1_gestao_check_in_aaeeaefe1db96fecbc386f8f60254d438} 
+override bool dados.\+Gestao\+Check\+In.\+Guardar\+Check\+Ins (\begin{DoxyParamCaption}\item[{string}]{caminho\+Ficheiro}{}\end{DoxyParamCaption})}
+
+
+
+Guarda a lista de check-\/ins no ficheiro especificado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em caminho\+Ficheiro} & Caminho do ficheiro onde os check-\/ins serão guardados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna {\ttfamily true} se guardar for bem-\/sucedido.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepções}
+{\em Acesso\+Negado\+Exception} & Sem permissão para acessar o ficheiro.\\
+\hline
+{\em Erro\+De\+IOException} & Erro ao guardar no ficheiro.\\
+\hline
+{\em Serializacao\+Exception} & Erro durante a serialização dos dados.\\
+\hline
+{\em Base\+Reserva\+Exception} & Erro genérico com código "{}-\/4"{}.\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classdados_1_1_gestao_check_in_a1cd26fa99f6f88280dab6d131ebbb1bd}\index{dados.GestaoCheckIn@{dados.GestaoCheckIn}!RealizarCheckIn@{RealizarCheckIn}}
+\index{RealizarCheckIn@{RealizarCheckIn}!dados.GestaoCheckIn@{dados.GestaoCheckIn}}
+\doxysubsubsection{\texorpdfstring{RealizarCheckIn()}{RealizarCheckIn()}}
+{\footnotesize\ttfamily \label{classdados_1_1_gestao_check_in_a1cd26fa99f6f88280dab6d131ebbb1bd} 
+bool dados.\+Gestao\+Check\+In.\+Realizar\+Check\+In (\begin{DoxyParamCaption}\item[{int}]{codigo\+Reserva}{}\end{DoxyParamCaption})}
+
+
+
+Realiza o check-\/in para a reserva especificada, criando um novo objeto \doxylink{classdados_1_1_check_in_concreto}{Check\+In\+Concreto} e adicionando-\/o à lista de check-\/ins. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em codigo\+Reserva} & Código da reserva para a qual o check-\/in será realizado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna {\ttfamily true} se o check-\/in for realizado com sucesso, ou {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+
+\doxysubsection{Documentação dos dados membro}
+\Hypertarget{classdados_1_1_gestao_check_in_afecd130004bb98a8cb33dd44a4bbfb60}\index{dados.GestaoCheckIn@{dados.GestaoCheckIn}!listaCheckIns@{listaCheckIns}}
+\index{listaCheckIns@{listaCheckIns}!dados.GestaoCheckIn@{dados.GestaoCheckIn}}
+\doxysubsubsection{\texorpdfstring{listaCheckIns}{listaCheckIns}}
+{\footnotesize\ttfamily \label{classdados_1_1_gestao_check_in_afecd130004bb98a8cb33dd44a4bbfb60} 
+List$<$\mbox{\hyperlink{classdados_1_1_check_in}{Check\+In}}$>$ dados.\+Gestao\+Check\+In.\+lista\+Check\+Ins = new List$<$\mbox{\hyperlink{classdados_1_1_check_in}{Check\+In}}$>$()\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+dados/\mbox{\hyperlink{_check_in_reserva_8cs}{Check\+In\+Reserva.\+cs}}\end{DoxyCompactItemize}

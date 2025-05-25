@@ -1,0 +1,14 @@
+var searchData=
+[
+  ['realizarcheckin_0',['RealizarCheckIn',['../classdados_1_1_gestao_check_in.html#a1cd26fa99f6f88280dab6d131ebbb1bd',1,'dados::GestaoCheckIn']]],
+  ['realizarcheckinregras_1',['RealizarCheckInRegras',['../class_regras_1_1_regras_check_in.html#a4887d283011fd27c17f9c691f2c1e1ac',1,'Regras::RegrasCheckIn']]],
+  ['registarcheckin_2',['RegistarCheckIn',['../classdados_1_1_check_in.html#a7199a1060c8f25f55a2cd452cf900613',1,'dados::CheckIn']]],
+  ['regrascheckin_3',['RegrasCheckIn',['../class_regras_1_1_regras_check_in.html#a7df8934c3ffc942aa75be13bb2c207af',1,'Regras::RegrasCheckIn']]],
+  ['removerreserva_4',['RemoverReserva',['../classdados_1_1_reservas.html#ad6610946bde056499bc899efa3185903',1,'dados::Reservas']]],
+  ['removerreservaregra_5',['RemoverReservaRegra',['../class_regras_1_1_reservas_regras.html#a5c16216292a568c58c7c5eaaf990ef89',1,'Regras::ReservasRegras']]],
+  ['reserva_6',['Reserva',['../classdados_1_1_reserva.html#a3733cec45effc65eaa75b04bc43ce7e8',1,'dados::Reserva']]],
+  ['reservabo_7',['ReservaBO',['../class_b_o_1_1_reserva_b_o.html#a678a2fefa860a8a88504654c0ed15aad',1,'BO::ReservaBO']]],
+  ['reservaexiste_8',['ReservaExiste',['../classdados_1_1_reservas.html#af81f8c6b667b2d1f7eba47feeb45d8e9',1,'dados::Reservas']]],
+  ['reservaexisteregra_9',['ReservaExisteRegra',['../class_regras_1_1_reservas_regras.html#abe425415bd782ef12e399975d8d27e1a',1,'Regras::ReservasRegras']]],
+  ['reservarquartos_10',['ReservarQuartos',['../class_b_o_1_1_alojamento.html#ae385eb92bb4713fd713bf5b2a9ecb22b',1,'BO.Alojamento.ReservarQuartos()'],['../interface_b_o_1_1_i_alojamento.html#a1367e2a5f5e0a41882b485a484c657d1',1,'BO.IAlojamento.ReservarQuartos()']]]
+];

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="dir_bd04fca949d8a5ed5c5e4b1453254d5e" kind="dir">
+    <compoundname>trataProblemas/Properties</compoundname>
+    <innerfile refid="trata_problemas_2_properties_2_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="trataProblemas/Properties/"/>
+  </compounddef>
+</doxygen>

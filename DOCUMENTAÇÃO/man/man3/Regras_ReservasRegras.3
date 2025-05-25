@@ -1,0 +1,161 @@
+.TH "Regras.ReservasRegras" 3 "Gestão de Alojamentos" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Regras.ReservasRegras \- Purpose: Created by: João Barbosa Created on: 17/12/2024 16:27:39\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Membros públicos"
+
+.in +1c
+.ti -1c
+.RI "int \fBAdicionarReservaBO\fP (\fBReservaBO\fP reservaBO)"
+.br
+.RI "Adiciona uma nova reserva à lista de reservas, realizando as devidas validações\&. "
+.ti -1c
+.RI "bool \fBRemoverReservaRegra\fP (int codigoReserva)"
+.br
+.RI "Remove uma reserva com base no código fornecido\&. "
+.ti -1c
+.RI "decimal \fBCalcularPrecoReservaRegra\fP (int codigoReserva, decimal precoPorNoite)"
+.br
+.RI "Calcula o preço total da reserva com base no código da reserva e no preço por noite\&. "
+.ti -1c
+.RI "bool \fBReservaExisteRegra\fP (int codigoReserva)"
+.br
+.RI "Verifica se uma reserva existe com base no código fornecido\&. "
+.ti -1c
+.RI "bool \fBGuardarReservasRegra\fP (string caminhoFicheiro)"
+.br
+.RI "Tenta guardar as reservas em um ficheiro especificado\&. "
+.ti -1c
+.RI "bool \fBCarregarReservasRegra\fP (string caminhoFicheiro)"
+.br
+.RI "Tenta carregar as reservas de um ficheiro especificado\&. "
+.in -1c
+.SH "Descrição detalhada"
+.PP 
+Purpose: Created by: João Barbosa Created on: 17/12/2024 16:27:39\&. 
+
+
+.SH "Documentação das funções"
+.PP 
+.SS "int Regras\&.ReservasRegras\&.AdicionarReservaBO (\fBReservaBO\fP reservaBO)"
+
+.PP
+Adiciona uma nova reserva à lista de reservas, realizando as devidas validações\&. 
+.PP
+\fBParâmetros\fP
+.RS 4
+\fIreservaBO\fP Objeto que contém os dados da reserva a ser adicionada\&.
+.RE
+.PP
+\fBRetorna\fP
+.RS 4
+Retorna o código da reserva se adicionada com sucesso, ou um código de erro específico caso ocorra uma falha\&.
+.RE
+.PP
+
+.PP
+Os seguintes códigos de erro são retornados: 
+.PD 0
+.IP "\(bu" 2
+-1: Reserva inválida (objeto nulo) 
+.IP "\(bu" 2
+-2: Data de entrada inválida (antes da data atual) 
+.IP "\(bu" 2
+-3: Intervalo de datas inválido (data de saída anterior à de entrada) 
+.IP "\(bu" 2
+-4: Quantidade de quartos inválida (menor ou igual a 0) 
+.IP "\(bu" 2
+-5: Falha ao adicionar a reserva 
+.PP
+
+.SS "decimal Regras\&.ReservasRegras\&.CalcularPrecoReservaRegra (int codigoReserva, decimal precoPorNoite)"
+
+.PP
+Calcula o preço total da reserva com base no código da reserva e no preço por noite\&. 
+.PP
+\fBParâmetros\fP
+.RS 4
+\fIcodigoReserva\fP Código da reserva para a qual o preço será calculado\&.
+.br
+\fIprecoPorNoite\fP Preço por noite de hospedagem\&.
+.RE
+.PP
+\fBRetorna\fP
+.RS 4
+Preço total da reserva ou 0 se a reserva não for encontrada\&.
+.RE
+.PP
+
+.SS "bool Regras\&.ReservasRegras\&.CarregarReservasRegra (string caminhoFicheiro)"
+
+.PP
+Tenta carregar as reservas de um ficheiro especificado\&. 
+.PP
+\fBParâmetros\fP
+.RS 4
+\fIcaminhoFicheiro\fP Caminho do ficheiro de onde as reservas serão carregadas\&.
+.RE
+.PP
+\fBRetorna\fP
+.RS 4
+Retorna true se as reservas forem carregadas com sucesso, caso contrário, retorna false\&.
+.RE
+.PP
+
+.SS "bool Regras\&.ReservasRegras\&.GuardarReservasRegra (string caminhoFicheiro)"
+
+.PP
+Tenta guardar as reservas em um ficheiro especificado\&. 
+.PP
+\fBParâmetros\fP
+.RS 4
+\fIcaminhoFicheiro\fP Caminho do ficheiro onde as reservas serão guardadas\&.
+.RE
+.PP
+\fBRetorna\fP
+.RS 4
+Retorna true se as reservas forem guardadas com sucesso, caso contrário, retorna false\&.
+.RE
+.PP
+
+.SS "bool Regras\&.ReservasRegras\&.RemoverReservaRegra (int codigoReserva)"
+
+.PP
+Remove uma reserva com base no código fornecido\&. 
+.PP
+\fBParâmetros\fP
+.RS 4
+\fIcodigoReserva\fP Código da reserva a ser removida\&.
+.RE
+.PP
+\fBRetorna\fP
+.RS 4
+\fRtrue\fP se a reserva for removida com sucesso, caso contrário, \fRfalse\fP\&.
+.RE
+.PP
+
+.SS "bool Regras\&.ReservasRegras\&.ReservaExisteRegra (int codigoReserva)"
+
+.PP
+Verifica se uma reserva existe com base no código fornecido\&. 
+.PP
+\fBParâmetros\fP
+.RS 4
+\fIcodigoReserva\fP Código da reserva a ser verificada\&.
+.RE
+.PP
+\fBRetorna\fP
+.RS 4
+Retorna true se a reserva existir, caso contrário, retorna false\&.
+.RE
+.PP
+
+
+.SH "Autor"
+.PP 
+Gerado automaticamente por Doxygen para Gestão de Alojamentos a partir do código fonte\&.

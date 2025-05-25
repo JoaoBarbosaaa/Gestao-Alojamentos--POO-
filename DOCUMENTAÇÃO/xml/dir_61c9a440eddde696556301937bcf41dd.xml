@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="dir_61c9a440eddde696556301937bcf41dd" kind="dir">
+    <compoundname>dados/Properties</compoundname>
+    <innerfile refid="dados_2_properties_2_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dados/Properties/"/>
+  </compounddef>
+</doxygen>

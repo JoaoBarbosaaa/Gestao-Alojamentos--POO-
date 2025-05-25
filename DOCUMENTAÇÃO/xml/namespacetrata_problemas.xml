@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="pt">
+  <compounddef id="namespacetrata_problemas" kind="namespace" language="C#">
+    <compoundname>trataProblemas</compoundname>
+    <innerclass refid="classtrata_problemas_1_1_acesso_negado_exception" prot="public">trataProblemas::AcessoNegadoException</innerclass>
+    <innerclass refid="classtrata_problemas_1_1_base_reserva_exception" prot="public">trataProblemas::BaseReservaException</innerclass>
+    <innerclass refid="classtrata_problemas_1_1_erro_de_i_o_exception" prot="public">trataProblemas::ErroDeIOException</innerclass>
+    <innerclass refid="classtrata_problemas_1_1_ficheiro_nao_encontrado_exception" prot="public">trataProblemas::FicheiroNaoEncontradoException</innerclass>
+    <innerclass refid="classtrata_problemas_1_1_serializacao_exception" prot="public">trataProblemas::SerializacaoException</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="trataProblemas/trata.cs" line="15" column="1"/>
+  </compounddef>
+</doxygen>

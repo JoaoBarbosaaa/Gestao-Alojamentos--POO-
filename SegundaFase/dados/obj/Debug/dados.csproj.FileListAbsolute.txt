@@ -1,0 +1,13 @@
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\bin\Debug\dados.dll
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\bin\Debug\dados.pdb
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\obj\Debug\dados.csproj.AssemblyReference.cache
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\obj\Debug\dados.csproj.CoreCompileInputs.cache
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\obj\Debug\dados.dll
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\obj\Debug\dados.pdb
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\bin\Debug\Regras.dll
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\bin\Debug\trataProblemas.dll
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\bin\Debug\Regras.pdb
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\bin\Debug\trataProblemas.pdb
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\obj\Debug\dados.csproj.Up2Date
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\bin\Debug\BO.dll
+C:\Users\João\OneDrive - Instituto Politécnico do Cávado e do Ave\Desktop\trabalho por camadas\SegundaFase\dados\bin\Debug\BO.pdb
